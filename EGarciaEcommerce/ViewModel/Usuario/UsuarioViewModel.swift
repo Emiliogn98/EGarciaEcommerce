@@ -68,7 +68,7 @@ class UsuarioViewModel {
                 sqlite3_bind_text(insertStatement, 4, (usuario.FechaNacimiento! as NSString).utf8String, -1, nil)
                 sqlite3_bind_text(insertStatement, 5, (usuario.UserName! as NSString).utf8String, -1, nil)
                 sqlite3_bind_text(insertStatement, 6, (usuario.Password! as NSString).utf8String, -1, nil)
-               // usuario.Rol = Rol()
+               
                 sqlite3_bind_int(insertStatement, 7, Int32(usuario.Rol!.IdRol! as Int))
                // sqlite3_bind_int(insertStatement, 7, Int32(usuario.IdUsuario! as Int))
                 

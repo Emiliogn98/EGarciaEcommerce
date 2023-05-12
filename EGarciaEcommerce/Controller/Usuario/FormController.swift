@@ -142,7 +142,11 @@ class FormController: UIViewController {
         usuario.UserName = txtUserNameOutlet.text!
         usuario.Password = txtPasswordOutlet.text!
         usuario.Rol = Rol()
+        
+        
         usuario.Rol?.IdRol = IdRol
+        //usuario.Rol?.IdRol = Int(lblIdRol.text!)
+        
         //guards
         guard txtNombreOutlet.text != "" else {
             lblNombre.text = "Campo Requerido"
@@ -262,7 +266,11 @@ class FormController: UIViewController {
         txtUserNameOutlet.text = usuario.UserName
         txtPasswordOutlet.text = usuario.Password
        // usuario.Rol = Rol()
+      //  ddlIdRol.text = String(usuario.Rol!.IdRol!)
+      
+         IdRol = Int(usuario.Rol!.IdRol!)
         ddlIdRol.text = String(usuario.Rol!.IdRol!)
+//if let rol =
       //  ddlIdRol.text = usuario.Rol!.Nombre
         
     }
