@@ -8,11 +8,12 @@
 import UIKit
 
 class FormRolController: UIViewController {
-
+    
     let dbManager = DBManager()
     var IdRol = 0
     //outletes
-    @IBOutlet weak var txtId: UILabel!
+    @IBOutlet weak var txtId: UITextField!
+    
     @IBOutlet weak var btnAction: UIButton!
     
     @IBOutlet weak var lblActualizarRol: UILabel!
@@ -25,57 +26,67 @@ class FormRolController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        txtNombre.delegate = self
+        txtId.delegate = self
+//        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+//         view.addGestureRecognizer(tapGesture)
+//
+        print("El valor de ID es:")
+        print(IdRol)
         
-                print("El valor de ID es:")
-                     print(IdRol)
-
-                       if IdRol == 0{
-                           //Add
-                        //   Limpiar()
-        
-                           txtId.isHidden = true
-                           lblId.isHidden = true
-                           
-                           lblRegistrarRol.isHidden = false
-                           lblActualizarRol.isHidden = true
-                           
-                           btnAction.tintColor = .blue
-                                     btnAction.setTitle("Agregar", for: .normal)
-                           
-                           //Mostrar formulario Vacio
-                          
-
-                       }else{
-                           //up
-                           Precargar()
-                          // txtIdOutlet.isHidden = false
-                           lblId.isHidden = false
-                           lblRegistrarRol.isHidden = true
-                           lblActualizarRol.isHidden = false
-                           
-                           btnAction.tintColor = .orange
-                                     btnAction.setTitle("Actualizar", for: .normal)
-                           
-                       }
+        if IdRol == 0{
+            //Add
+            //   Limpiar()
+            
+            txtId.isHidden = false
+            lblId.isHidden = false
+            
+            lblRegistrarRol.isHidden = false
+            lblActualizarRol.isHidden = true
+            
+            btnAction.tintColor = .blue
+            btnAction.setTitle("Agregar", for: .normal)
+            
+            //Mostrar formulario Vacio
+            
+            
+        }else{
+            //up
+            Precargar()
+            // txtIdOutlet.isHidden = false
+            lblId.isHidden = false
+            lblRegistrarRol.isHidden = true
+            lblActualizarRol.isHidden = false
+            
+            btnAction.tintColor = .orange
+            btnAction.setTitle("Actualizar", for: .normal)
+            
+        }
     }
     override func viewWillDisappear(_ animated: Bool) {
-      print("apunto de desaparecer: WillDisapear Form")
+        print("apunto de desaparecer: WillDisapear Form")
         
     }
     override func viewWillAppear(_ animated: Bool) {
-       print("apunto de aparecer:  WillApear Form")
-       
+        print("apunto de aparecer:  WillApear Form")
+        
     }
     override func viewDidDisappear(_ animated: Bool) {
         print("desaparece la vista DidDisapear Form")
-      
+        
     }
     override func viewDidAppear(_ animated: Bool) {
         print("aparecio la vista : DidAppear Form")
         
     }
+// pruebas
+ 
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+
+  //Pruebas
     
 //Actions
  
@@ -149,6 +160,41 @@ class FormRolController: UIViewController {
         txtNombre.text = ""
         lblId.text = ""
     }
+   
     
   
 }
+
+// MARK: UITEXTFIELDDELEGATE
+
+extension FormRolController : UITextFieldDelegate{
+    
+    //esconde teclado precionando el boton intro
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+      textField.resignFirstResponder()
+       
+
+        return true
+    }
+ 
+  
+    
+//    func textFieldShouldClear(textField: UITextField) -> Bool {
+//        if textField == txtNombre {
+//            print("field 1")
+//        } else {
+//            print("field 2")
+//        }
+//        return true
+//    }
+//    func textFieldShouldEndEditing(textField: UITextField) -> Bool{
+//       // textField.resignFirstResponder()
+//        return true
+//    }
+        
+   
+}
+
+
+
+

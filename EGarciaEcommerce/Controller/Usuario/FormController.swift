@@ -60,6 +60,10 @@ class FormController: UIViewController {
         ddlIdRol.didSelect { selectedText, index, id in
             self.IdRol = id}
         ddlIdRol.isSearchEnable = false
+        ddlIdRol.textColor = .black
+        ddlIdRol.selectedRowColor = .white
+        ddlIdRol.rowHeight =   18
+        ddlIdRol.arrowSize = 15
         
         ddlIdRol.optionArray = []
                 ddlIdRol.optionIds = []

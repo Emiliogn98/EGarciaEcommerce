@@ -120,7 +120,7 @@ extension GetAllUsuarioController : SwipeTableViewCellDelegate{
                 
             }
             
-            //deleteAction.image = UIImage(named: "trash")
+            deleteAction.image = UIImage(named: "trash")
             return [deleteAction]
         }
         if orientation == .left {
@@ -129,8 +129,8 @@ extension GetAllUsuarioController : SwipeTableViewCellDelegate{
                 //print("Se ejecuto la funcion de update")
                 //CODIGO A EJECUTAR
   
-        
-               // var result = UsuarioViewModel.GetById(IdUsuario: self.usuarios[indexPath.row].IdUsuario!)
+                 
+                var result = UsuarioViewModel.GetById(IdUsuario: self.usuarios[indexPath.row].IdUsuario!)
                 self.IdUsuario = self.usuarios[indexPath.row].IdUsuario!
                 self.performSegue(withIdentifier: "FormController", sender: self)
             }
@@ -138,6 +138,7 @@ extension GetAllUsuarioController : SwipeTableViewCellDelegate{
         }
         return nil
     }
+  
   
 }
 
