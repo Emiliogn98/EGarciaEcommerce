@@ -59,6 +59,7 @@ class FormController: UIViewController {
         
         ddlIdRol.didSelect { selectedText, index, id in
             self.IdRol = id}
+        ddlIdRol.isSearchEnable = false
         
         ddlIdRol.optionArray = []
                 ddlIdRol.optionIds = []
