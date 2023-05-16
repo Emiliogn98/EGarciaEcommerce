@@ -176,22 +176,38 @@ extension FormRolController : UITextFieldDelegate{
 
         return true
     }
- 
-  
     
-//    func textFieldShouldClear(textField: UITextField) -> Bool {
-//        if textField == txtNombre {
-//            print("field 1")
-//        } else {
-//            print("field 2")
-//        }
-//        return true
-//    }
-//    func textFieldShouldEndEditing(textField: UITextField) -> Bool{
-//       // textField.resignFirstResponder()
-//        return true
-//    }
+    func textFieldDidBeginEditing(_ textField: UITextField)
+    {
+    print("TextField comenzó a editar el método llamado")
+    }
+    func textFieldDidEndEditing(_ textField: UITextField)
+    {
+    print("TextField finalizó el método de edición llamado")
+        textField.resignFirstResponder()
         
+    }
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool
+    {
+    print("TextField debe comenzar a editar el método llamado")
+        return true
+    }
+    func textFieldShouldClear(_ textField: UITextField) -> Bool
+    {
+    print("TextField debe borrar el método llamado")
+        return true
+    }
+    func textFieldShouldEndEditing(_ textField: UITextField) -> Bool
+    {
+    print("TextField debe llamar al método de edición")
+        return true
+    }
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool
+    {
+    print("Al ingresar los caracteres se llama a este método")
+        return true
+    }
+ 
    
 }
 

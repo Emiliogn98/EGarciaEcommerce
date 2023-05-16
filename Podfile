@@ -9,5 +9,6 @@ target 'EGarciaEcommerce' do
 
    pod 'SwipeCellKit'
    pod 'iOSDropDown'
+   pod 'IQKeyboardManagerSwift'
 
 end

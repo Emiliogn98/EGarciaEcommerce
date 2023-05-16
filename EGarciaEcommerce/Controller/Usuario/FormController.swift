@@ -8,6 +8,7 @@
 import UIKit
 import SwipeCellKit
 import iOSDropDown
+import IQKeyboardManagerSwift
 
 
 class FormController: UIViewController {
