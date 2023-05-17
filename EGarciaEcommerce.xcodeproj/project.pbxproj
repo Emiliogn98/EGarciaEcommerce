@@ -20,10 +20,10 @@
 		E33B71E22A140EFB00C1CB6D /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */; };
 		E33B71E62A140F3900C1CB6D /* ProductoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E42A140F3900C1CB6D /* ProductoCell.swift */; };
 		E33B71E72A140F3900C1CB6D /* ProductoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33B71E52A140F3900C1CB6D /* ProductoCell.xib */; };
-		E33B71E92A140F5F00C1CB6D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E82A140F5F00C1CB6D /* Producto.swift */; };
 		E33B71EB2A140F7900C1CB6D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
 		E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
 		E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
+		E37347A62A156542000D4E63 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
 		E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382C6652A04371900D22EFA /* UsuarioViewModel.swift */; };
 		E3A135D829FAFD6D006C0CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A135D729FAFD6D006C0CAD /* AppDelegate.swift */; };
 		E3A135DA29FAFD6D006C0CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A135D929FAFD6D006C0CAD /* SceneDelegate.swift */; };
@@ -56,10 +56,10 @@
 		E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewModel.swift; sourceTree = "<group>"; };
 		E33B71E42A140F3900C1CB6D /* ProductoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCell.swift; sourceTree = "<group>"; };
 		E33B71E52A140F3900C1CB6D /* ProductoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCell.xib; sourceTree = "<group>"; };
-		E33B71E82A140F5F00C1CB6D /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		E33B71EA2A140F7900C1CB6D /* Proveedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proveedor.swift; sourceTree = "<group>"; };
 		E33B71EC2A140F8E00C1CB6D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		E33B71EE2A140F9B00C1CB6D /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		E37347A52A156542000D4E63 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		E382C6652A04371900D22EFA /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGarciaEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A135D729FAFD6D006C0CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,10 +142,10 @@
 				E3FEE8B92A0ACB7F00315063 /* Rol.swift */,
 				E30620382A018C61005D4246 /* Result.swift */,
 				E32B57BF29FC54FA00A1EA76 /* Usuario.swift */,
-				E33B71E82A140F5F00C1CB6D /* Producto.swift */,
 				E33B71EA2A140F7900C1CB6D /* Proveedor.swift */,
 				E33B71EC2A140F8E00C1CB6D /* Departamento.swift */,
 				E33B71EE2A140F9B00C1CB6D /* Area.swift */,
+				E37347A52A156542000D4E63 /* Producto.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -406,6 +406,7 @@
 				E33B71E62A140F3900C1CB6D /* ProductoCell.swift in Sources */,
 				E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */,
 				E31117CD2A02E80800FA2013 /* GetAllUsuarioController.swift in Sources */,
+				E37347A62A156542000D4E63 /* Producto.swift in Sources */,
 				E3A135DC29FAFD6D006C0CAD /* FormController.swift in Sources */,
 				E3FEE8C42A0AE5BA00315063 /* GetAllRolController.swift in Sources */,
 				E31117D02A02ED5400FA2013 /* UsuarioCell.swift in Sources */,
@@ -414,7 +415,6 @@
 				E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */,
 				E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */,
 				E3A135DA29FAFD6D006C0CAD /* SceneDelegate.swift in Sources */,
-				E33B71E92A140F5F00C1CB6D /* Producto.swift in Sources */,
 				E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */,
 				E33B71DF2A140DD600C1CB6D /* FormProductoController.swift in Sources */,
 			);
