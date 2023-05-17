@@ -12,6 +12,7 @@ class FormRolController: UIViewController {
     let dbManager = DBManager()
     var IdRol = 0
     //outletes
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var txtId: UITextField!
     
     @IBOutlet weak var btnAction: UIButton!
@@ -28,11 +29,12 @@ class FormRolController: UIViewController {
         super.viewDidLoad()
         txtNombre.delegate = self
         txtId.delegate = self
-//        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
-//         view.addGestureRecognizer(tapGesture)
-//
-        print("El valor de ID es:")
-        print(IdRol)
+        imagePicker.delegate = self
+        let tapGesture = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+         view.addGestureRecognizer(tapGesture)
+
+//        print("El valor de ID es:")
+//        print(IdRol)
         
         if IdRol == 0{
             //Add
@@ -82,13 +84,16 @@ class FormRolController: UIViewController {
 // pruebas
  
     
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        view.endEditing(true)
-    }
+//    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+//        view.endEditing(true)
+//    }
 
   //Pruebas
+
     
-//Actions
+   
+    //Actions
+        let imagePicker = UIImagePickerController()
  
     @IBAction func ActionButtons(_ sender: UIButton) {
         
@@ -96,6 +101,7 @@ class FormRolController: UIViewController {
         
         rol.IdRol = Int(lblId.text!)
         rol.Nombre = txtNombre.text!
+       // rol.Image = imageView.image
         
         guard txtNombre.text != "" else {
             lblNombre.text = "Campo Requerido"
@@ -134,7 +140,7 @@ class FormRolController: UIViewController {
                          let alert = UIAlertController(title: "Mensaje", message: "Rol modificado correctamente", preferredStyle: .alert)
                          let action = UIAlertAction(title: "Aceptar", style: .default)
                          alert.addAction(action)
-                         self.navigationController?.popViewController(animated: false)
+                        
                          present(alert, animated: true)
                          //dismiss(animated: true)
                          IdRol = 0
@@ -210,7 +216,40 @@ extension FormRolController : UITextFieldDelegate{
  
    
 }
-
-
+// MARK: UIImagePickerControllerDelegate
+extension FormRolController : UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+    
+  @IBAction func openGallery(_ sender: UIButton) {
+          imagePicker.sourceType = .photoLibrary
+          present(imagePicker, animated: true, completion: nil)
+      }
+      
+      @IBAction func openCamera(_ sender: UIButton) {
+          if UIImagePickerController.isSourceTypeAvailable(.camera) {
+              imagePicker.sourceType = .camera
+              present(imagePicker, animated: true, completion: nil)
+          } else {
+              print("La cámara no está disponible.")
+          }
+      }
+      
+      func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+          if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+              imageView.image = image
+              
+              if let imageData = image.jpegData(compressionQuality: 1.0) {
+                  let base64String = imageData.base64EncodedString()
+                  print(base64String)
+              }
+          }
+       
+          dismiss(animated: true, completion: nil)
+      }
+      
+      func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+          dismiss(animated: true, completion: nil)
+        
+      }
+}
 
 

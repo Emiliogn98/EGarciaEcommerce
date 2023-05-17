@@ -126,7 +126,6 @@ class UsuarioViewModel {
             result.Ex = ex
         }
         return result
-        
     }
     
    static func GetAll()-> Result
