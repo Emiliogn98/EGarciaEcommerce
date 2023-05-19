@@ -24,6 +24,8 @@
 		E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
 		E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
 		E37347A62A156542000D4E63 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
+		E37347AA2A157209000D4E63 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */; };
+		E37347AC2A157221000D4E63 /* ProveedorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347AB2A157221000D4E63 /* ProveedorViewModel.swift */; };
 		E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E382C6652A04371900D22EFA /* UsuarioViewModel.swift */; };
 		E3A135D829FAFD6D006C0CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A135D729FAFD6D006C0CAD /* AppDelegate.swift */; };
 		E3A135DA29FAFD6D006C0CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A135D929FAFD6D006C0CAD /* SceneDelegate.swift */; };
@@ -31,6 +33,7 @@
 		E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135DD29FAFD6D006C0CAD /* Main.storyboard */; };
 		E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E029FAFD6E006C0CAD /* Assets.xcassets */; };
 		E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E229FAFD6E006C0CAD /* LaunchScreen.storyboard */; };
+		E3D2A1122A16D50E007BB13F /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */; };
 		E3FEE8BA2A0ACB7F00315063 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8B92A0ACB7F00315063 /* Rol.swift */; };
 		E3FEE8BC2A0ACC1400315063 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8BB2A0ACC1400315063 /* RolViewModel.swift */; };
 		E3FEE8C22A0AE52A00315063 /* FormRolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8C12A0AE52A00315063 /* FormRolController.swift */; };
@@ -60,6 +63,8 @@
 		E33B71EC2A140F8E00C1CB6D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		E33B71EE2A140F9B00C1CB6D /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		E37347A52A156542000D4E63 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
+		E37347AB2A157221000D4E63 /* ProveedorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProveedorViewModel.swift; sourceTree = "<group>"; };
 		E382C6652A04371900D22EFA /* UsuarioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioViewModel.swift; sourceTree = "<group>"; };
 		E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGarciaEcommerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A135D729FAFD6D006C0CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +74,7 @@
 		E3A135E029FAFD6E006C0CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A135E329FAFD6E006C0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A135E529FAFD6E006C0CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		E3FEE8B92A0ACB7F00315063 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
 		E3FEE8BB2A0ACC1400315063 /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
 		E3FEE8C12A0AE52A00315063 /* FormRolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRolController.swift; sourceTree = "<group>"; };
@@ -136,6 +142,22 @@
 			path = Producto;
 			sourceTree = "<group>";
 		};
+		E37347A72A1571E2000D4E63 /* Proveedor */ = {
+			isa = PBXGroup;
+			children = (
+				E37347AB2A157221000D4E63 /* ProveedorViewModel.swift */,
+			);
+			path = Proveedor;
+			sourceTree = "<group>";
+		};
+		E37347A82A1571EA000D4E63 /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
 		E382C65D2A04363100D22EFA /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +187,9 @@
 		E382C65F2A04363D00D22EFA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E3D2A1102A16D4F9007BB13F /* Area */,
+				E37347A82A1571EA000D4E63 /* Departamento */,
+				E37347A72A1571E2000D4E63 /* Proveedor */,
 				E33B71E02A140EDB00C1CB6D /* Producto */,
 				E3FEE8C92A0B07E900315063 /* Usuario */,
 				E3FEE8C82A0B07DC00315063 /* Rol */,
@@ -232,6 +257,14 @@
 				E32B57C129FC5DB200A1EA76 /* EGarciaBD.db */,
 			);
 			path = EGarciaEcommerce;
+			sourceTree = "<group>";
+		};
+		E3D2A1102A16D4F9007BB13F /* Area */ = {
+			isa = PBXGroup;
+			children = (
+				E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */,
+			);
+			path = Area;
 			sourceTree = "<group>";
 		};
 		E3FEE8C52A0B077800315063 /* Rol */ = {
@@ -407,6 +440,8 @@
 				E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */,
 				E31117CD2A02E80800FA2013 /* GetAllUsuarioController.swift in Sources */,
 				E37347A62A156542000D4E63 /* Producto.swift in Sources */,
+				E3D2A1122A16D50E007BB13F /* AreaViewModel.swift in Sources */,
+				E37347AA2A157209000D4E63 /* DepartamentoViewModel.swift in Sources */,
 				E3A135DC29FAFD6D006C0CAD /* FormController.swift in Sources */,
 				E3FEE8C42A0AE5BA00315063 /* GetAllRolController.swift in Sources */,
 				E31117D02A02ED5400FA2013 /* UsuarioCell.swift in Sources */,
@@ -415,6 +450,7 @@
 				E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */,
 				E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */,
 				E3A135DA29FAFD6D006C0CAD /* SceneDelegate.swift in Sources */,
+				E37347AC2A157221000D4E63 /* ProveedorViewModel.swift in Sources */,
 				E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */,
 				E33B71DF2A140DD600C1CB6D /* FormProductoController.swift in Sources */,
 			);

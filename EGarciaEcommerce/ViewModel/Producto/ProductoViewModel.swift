@@ -136,7 +136,7 @@ class ProductoViewModel {
                      producto.PrecioUnitario = Double(sqlite3_column_double(statement,2))
                      producto.Stock = Int(sqlite3_column_int(statement,3))
                      producto.Descripcion = String(describing: String(cString: sqlite3_column_text(statement,4)))
-                     producto.Imagen? = String(describing: String(cString: sqlite3_column_text(statement,5)))
+                     producto.Imagen = String(describing: String(cString: sqlite3_column_text(statement,5)))
                      producto.Proveedor = Proveedor()
                      producto.Proveedor?.IdProveedor = Int(sqlite3_column_int(statement, 6))
                      producto.Proveedor?.Nombre = String(describing: String(cString: sqlite3_column_text(statement,7)))

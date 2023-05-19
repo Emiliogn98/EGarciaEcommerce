@@ -13,10 +13,31 @@ class FormProductoController: UIViewController {
     var productos : [Producto] = []
     let dbManager = DBManager()
     let imagePickerController = UIImagePickerController()
-  
-    var IdProducto : Int = 0, IdDepartamento : Int = 0, IdProveedor : Int = 0
+   
+    var IdProducto : Int = 0, IdDepartamento : Int = 0, IdProveedor : Int = 0, IdArea : Int = 0
     var base64 : String = ""
 //outlets
+    @IBOutlet weak var lblId: UILabel!
+    @IBOutlet weak var lblNombre: UILabel!
+    
+    @IBOutlet weak var lblDepartamento: UILabel!
+    @IBOutlet weak var lblStock: UILabel!
+    @IBOutlet weak var lblPrecioUnitario: UILabel!
+    
+    @IBOutlet weak var lblProveedor: UILabel!
+    @IBOutlet weak var lblDescripcion: UILabel!
+    
+    
+    @IBOutlet weak var lblRegistrar: UILabel!
+    
+    @IBOutlet weak var lblActualizar: UILabel!
+    
+    @IBOutlet weak var lblArea: UILabel!
+    
+    @IBOutlet weak var lblIdProducto: UILabel!
+    
+    
+  
     
     @IBOutlet weak var ImgView: UIImageView!
     
@@ -36,6 +57,12 @@ class FormProductoController: UIViewController {
     @IBOutlet weak var btnAction: UIButton!
     
     //actions
+    
+    
+    @IBOutlet weak var ddlIdArea: DropDown!
+    
+    
+    
     @IBOutlet weak var OpenCamera: UIButton!
     
     @IBAction func openPickerImage(_ sender: UIButton) {
@@ -46,15 +73,79 @@ class FormProductoController: UIViewController {
     @IBAction func btnActionButtons(_ sender: Any) {
         let producto = Producto()
         producto.IdProducto = Int(txtIdProducto.text!)
-       // producto.Imagen =
+        producto.Imagen = base64
         producto.Nombre = txtNombre.text!
         producto.PrecioUnitario = Double(txtPrecioUnitario.text!)
         producto.Stock = Int(txtStock.text!)
         producto.Descripcion = txtDescripcion.text!
         producto.Proveedor = Proveedor()
-        producto.Proveedor?.IdProveedor = Int(ddlIdProveedor.text!)
+        //producto.Proveedor?.IdProveedor = Int(ddlIdProveedor.text!)
+        producto.Proveedor?.IdProveedor = IdProveedor
         producto.Departamento = Departamento()
-        producto.Departamento?.IdDepartamento = Int(ddlIdDepartamento.text!)
+        //producto.Departamento?.IdDepartamento = Int(ddlIdDepartamento.text!)
+        producto.Departamento?.IdDepartamento = IdDepartamento
+        //guards
+        guard txtNombre.text != "" else {
+            lblNombre.text = "Campo Requerido"
+            lblNombre.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblNombre.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        txtNombre.backgroundColor = .clear
+           lblNombre.text = ""
+        lblNombre.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+        guard txtPrecioUnitario.text != "" else {
+            lblPrecioUnitario.text = "Campo Requerido"
+            lblPrecioUnitario.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblPrecioUnitario.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        txtPrecioUnitario.backgroundColor = .clear
+           lblPrecioUnitario.text = ""
+        lblPrecioUnitario.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+        guard txtStock.text != "" else {
+            lblStock.text = "Campo Requerido"
+            lblStock.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblStock.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        txtStock.backgroundColor = .clear
+           lblStock.text = ""
+        lblStock.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+        guard ddlIdDepartamento.text != "" else {
+            lblDepartamento.text = "Campo Requerido"
+            lblDepartamento.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblDepartamento.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        ddlIdDepartamento.backgroundColor = .clear
+           lblDepartamento.text = ""
+        lblDepartamento.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+        guard ddlIdProveedor.text != "" else {
+            lblProveedor.text = "Campo Requerido"
+            lblProveedor.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblProveedor.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        ddlIdProveedor.backgroundColor = .clear
+           lblProveedor.text = ""
+        lblProveedor.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+        guard txtDescripcion.text != "" else {
+            lblDescripcion.text = "Campo Requerido"
+            lblDescripcion.textColor  = .red
+            //txtNombreOutlet.backgroundColor = .red
+            lblDescripcion.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
+                    return
+                }
+        txtDescripcion.backgroundColor = .clear
+           lblDescripcion.text = ""
+        lblDescripcion.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
+
         
         var btnSeleccionado: String? = (sender as AnyObject).titleLabel?.text
          
@@ -92,7 +183,6 @@ class FormProductoController: UIViewController {
             }
             
         }
-        
         //button
     }
     func Precargar(){
@@ -102,12 +192,24 @@ class FormProductoController: UIViewController {
         txtNombre.text = producto.Nombre
         txtPrecioUnitario.text = String(producto.PrecioUnitario!)
         txtStock.text = String(producto.Stock!)
+        txtDescripcion.text = producto.Descripcion!
         IdProveedor = Int(producto.Proveedor!.IdProveedor!)
-        ddlIdProveedor.text = String(producto.Proveedor!.IdProveedor!)
+        ddlIdProveedor.text = String(producto.Proveedor!.Nombre!)
         IdDepartamento = Int(producto.Departamento!.IdDepartamento!)
-        ddlIdDepartamento.text = String(producto.Departamento!.IdDepartamento!)
+        ddlIdDepartamento.text = String(producto.Departamento!.Nombre!)
+         let base64String = producto.Imagen!
+            let dataDecoded : Data = Data(base64Encoded: base64String)!//Proceso inverso de base64 a Data
+            ImgView.image = UIImage(data: dataDecoded)
+        
+        if ImgView.image == nil {
+            ImgView.image = UIImage(named: "AppIcon")
+        }else {
+            let base64String = producto.Imagen!
+            let dataDecoded : Data = Data(base64Encoded: base64String)!//Proceso inverso de base64 a Data
+            ImgView.image = UIImage(data: dataDecoded)
+        }
+
   
-     
     }
     func Limpiar(){
         
@@ -118,7 +220,7 @@ class FormProductoController: UIViewController {
         txtDescripcion.text = ""
         ddlIdProveedor.text = ""
         ddlIdDepartamento.text = ""
-        ImgView.image = .remove
+        ImgView.image = UIImage(named: "AppIcon")
     }
    
     override func viewDidLoad() {
@@ -128,10 +230,10 @@ class FormProductoController: UIViewController {
             //Add
             Limpiar()
 
-//            txtIdOutlet.isHidden = true
-//            lblId.isHidden = true
-//            lblRegistrar.isHidden = false
-//            lblActualizar.isHidden = true
+            txtIdProducto.isHidden = true
+            lblIdProducto.isHidden = true
+            lblRegistrar.isHidden = false
+            lblActualizar.isHidden = true
             
             btnAction.tintColor = .blue
                       btnAction.setTitle("Agregar", for: .normal)
@@ -142,10 +244,10 @@ class FormProductoController: UIViewController {
         }else{
             //up
             Precargar()
-//            txtIdOutlet.isHidden = false
-//            lblId.isHidden = false
-//            lblRegistrar.isHidden = true
-//            lblActualizar.isHidden = false
+            txtIdProducto.isHidden = false
+             lblIdProducto.isHidden = false
+            lblRegistrar.isHidden = true
+            lblActualizar.isHidden = false
             
             btnAction.tintColor = .orange
                       btnAction.setTitle("Actualizar", for: .normal)
@@ -156,6 +258,39 @@ class FormProductoController: UIViewController {
                imagePickerController.sourceType = .photoLibrary
                imagePickerController.isEditing = false
                //
+//        //area
+        ddlIdArea.didSelect {selectedText, index, id in
+            self.IdArea = id
+            
+            let resultIdAreaDepartamento = DepartamentoViewModel.GetById(IdArea: id)
+            if resultIdAreaDepartamento.Correct!{
+                for objAreaDepartamento in resultIdAreaDepartamento.Objects!{
+                    let depaArea =  objAreaDepartamento as! Departamento
+                    self.ddlIdDepartamento.optionArray.append(depaArea.Nombre!)
+                    self.ddlIdDepartamento.optionIds?.append(depaArea.IdDepartamento!)
+                   // depaArea.IdDepartamento = self.IdDepartamento
+                }
+            }
+        }
+        ddlIdArea.isSearchEnable = false
+        ddlIdArea.textColor = .black
+        ddlIdArea.selectedRowColor = .white
+        ddlIdArea.rowHeight =   18
+        ddlIdArea.arrowSize = 15
+
+        ddlIdArea.optionArray = []
+        ddlIdArea.optionIds = []
+                let resultArea = AreaViewModel.GetAll()
+                if resultArea.Correct!{
+
+                    for objArea in resultArea.Objects!{
+
+                        let area = objArea as! Area
+                        ddlIdArea.optionArray.append(area.Nombre!)
+                        ddlIdArea.optionIds?.append(area.IdArea!)
+
+                    }
+                }
         //proveedor
         ddlIdProveedor.didSelect { selectedText, index, id in
             self.IdProveedor = id}
@@ -164,18 +299,18 @@ class FormProductoController: UIViewController {
         ddlIdProveedor.selectedRowColor = .white
         ddlIdProveedor.rowHeight =   18
         ddlIdProveedor.arrowSize = 15
-        
+
         ddlIdProveedor.optionArray = []
         ddlIdProveedor.optionIds = []
-                var resultProveedor = ProductoViewModel.GetAll()
+                let resultProveedor = ProveedorViewModel.GetAll()
                 if resultProveedor.Correct!{
-                    
+
                     for objProveedor in resultProveedor.Objects!{
-                        
-                        let producto = objProveedor as! Producto
-                        ddlIdProveedor.optionArray.append(producto.Proveedor!.Nombre!)
-                        ddlIdProveedor.optionIds?.append(producto.Proveedor!.IdProveedor!)
-                        
+
+                        let proveedor = objProveedor as! Proveedor
+                        ddlIdProveedor.optionArray.append(proveedor.Nombre!)
+                        ddlIdProveedor.optionIds?.append(proveedor.IdProveedor!)
+
                     }
                 }
         //departamento
@@ -186,55 +321,39 @@ class FormProductoController: UIViewController {
         ddlIdDepartamento.selectedRowColor = .white
         ddlIdDepartamento.rowHeight =   18
         ddlIdDepartamento.arrowSize = 15
-        
-        ddlIdDepartamento.optionArray = []
-        ddlIdDepartamento.optionIds = []
-                let resultDepartamento = ProductoViewModel.GetAll()
-                if resultDepartamento.Correct!{
-                    
-                    for objDepartamento in resultDepartamento.Objects!{
-                        
-                        var producto = objDepartamento as! Producto
-                        ddlIdProveedor.optionArray.append(producto.Departamento!.Nombre!)
-                        ddlIdProveedor.optionIds?.append(producto.Departamento!.IdDepartamento!)
-                        
-                    }
-                }
-        
+
+            ddlIdDepartamento.optionArray = []
+            ddlIdDepartamento.optionIds = []
+//                let resultDepartamento = DepartamentoViewModel.GetAll()
+//                if resultDepartamento.Correct!{
+//
+//                    for objDepartamento in resultDepartamento.Objects!{
+//
+//                        let departamento = objDepartamento as! Departamento
+//                        ddlIdDepartamento.optionArray.append(departamento.Nombre!)
+//                        ddlIdDepartamento.optionIds?.append(departamento.IdDepartamento!)
+//
+//                    }
+//                }
     }
-    
-
-
 }
 // MARK: UIImagePickerControllerDelegate
 extension FormProductoController : UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])  {
-       
-//        let image = info[.originalImage]
-//
-//        self.ImgView.image = info[.originalImage] as? UIImage
-//
-        if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-            ImgView.image = image
-            
-            if let imageData = image.jpegData(compressionQuality: 1.0) {
-                let base64String = imageData.base64EncodedString()
-                //print(base64String)
-                var base64 = base64String
-               
-            }
-            
-        }
         
-        
-            dismiss(animated: true)
-      
-        }
-     
-       
-  
-
-    
+        let image = info[.originalImage]
+        self.ImgView.image = info[.originalImage] as? UIImage
+        dismiss(animated: true)
+        convertBase64(imagen: image as! UIImage)
     }
 
+    func convertBase64(imagen: UIImage){
+        let imageData = imagen.jpegData(compressionQuality: 1.0)
+        self.base64 = imageData!.base64EncodedString()
+        
+        
+        
+    }
+    
+}

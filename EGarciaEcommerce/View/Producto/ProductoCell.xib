@@ -17,48 +17,52 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="fU7-Ud-SLc">
-                        <rect key="frame" x="220" y="0.0" width="220" height="200"/>
+                        <rect key="frame" x="152" y="0.0" width="285" height="200"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CbO-wu-miE">
-                                <rect key="frame" x="0.0" y="0.0" width="220" height="50"/>
+                                <rect key="frame" x="0.0" y="0.0" width="285" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="9Gf-jH-UcF"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Departamento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TjV-cf-f2h">
-                                <rect key="frame" x="0.0" y="50" width="220" height="50"/>
+                                <rect key="frame" x="0.0" y="50" width="285" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Precio" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oUN-wt-jVN">
-                                <rect key="frame" x="0.0" y="100" width="220" height="50"/>
+                                <rect key="frame" x="0.0" y="100" width="285" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descripcion" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P61-dV-L6y">
-                                <rect key="frame" x="0.0" y="150" width="220" height="50"/>
+                                <rect key="frame" x="0.0" y="150" width="285" height="50"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                     </stackView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="GP1-pO-dUU">
-                        <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MRr-6X-uN0">
-                                <rect key="frame" x="0.0" y="0.0" width="220" height="200"/>
+                                <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
                             </imageView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="WYc-V5-X3Q"/>
+                            <constraint firstAttribute="width" constant="150" id="lcw-ee-TKi"/>
+                        </constraints>
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="fU7-Ud-SLc" firstAttribute="leading" secondItem="GP1-pO-dUU" secondAttribute="trailing" id="ND6-1q-CsI"/>
-                    <constraint firstAttribute="bottom" secondItem="fU7-Ud-SLc" secondAttribute="bottom" id="RfC-qe-hfb"/>
-                    <constraint firstAttribute="trailing" secondItem="fU7-Ud-SLc" secondAttribute="trailing" id="VaG-3w-9FU"/>
-                    <constraint firstItem="fU7-Ud-SLc" firstAttribute="leading" secondItem="GP1-pO-dUU" secondAttribute="trailing" id="bVT-Vz-dM1"/>
-                    <constraint firstItem="fU7-Ud-SLc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tcU-tk-g1p"/>
-                    <constraint firstAttribute="bottom" secondItem="GP1-pO-dUU" secondAttribute="bottom" id="tsN-px-5Td"/>
-                    <constraint firstItem="GP1-pO-dUU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="uMW-ia-c5z"/>
-                    <constraint firstItem="GP1-pO-dUU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="w2g-j1-8VJ"/>
+                    <constraint firstItem="fU7-Ud-SLc" firstAttribute="leading" secondItem="GP1-pO-dUU" secondAttribute="trailing" constant="2" id="AYg-1j-2U8"/>
+                    <constraint firstItem="GP1-pO-dUU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-20" id="EG2-md-V7X"/>
+                    <constraint firstAttribute="bottom" secondItem="fU7-Ud-SLc" secondAttribute="bottom" id="QVI-nu-D8o"/>
+                    <constraint firstItem="GP1-pO-dUU" firstAttribute="top" secondItem="fU7-Ud-SLc" secondAttribute="top" id="eZk-lg-m1w"/>
+                    <constraint firstItem="fU7-Ud-SLc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="w9t-hq-WxW"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

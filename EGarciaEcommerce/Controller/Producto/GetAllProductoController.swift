@@ -82,15 +82,15 @@ class GetAllProductoController: UITableViewController {
         cell.txtNombre.text = "Nombre: \(productos[indexPath.row].Nombre!)"
         cell.txtDepartamento.text = "Departamento: \(productos[indexPath.row].Departamento!.Nombre!)"
         cell.txtPrecioUnitario.text = "Precio: \(productos[indexPath.row].PrecioUnitario!)"
-        cell.txtDescripcion.text = "FechaNacimiento: \(productos[indexPath.row].Descripcion!)"
+        cell.txtDescripcion.text = "Descripcion: \(productos[indexPath.row].Descripcion!)"
         //cell.imageView.text = "Username: \(productos[indexPath.row].Imagen!)"
-        //Image
-        if productos[indexPath.row].Imagen == "" || productos[indexPath.row].Imagen == nil {
-            cell.imgView.image = UIImage(named: "DefaultProducto")
+        //Image || productos[indexPath.row].Imagen == nil
+        if productos[indexPath.row].Imagen == "" || productos[indexPath.row].Imagen == nil{
+            cell.imgView.image = UIImage(named: "AppIcon")
         }else{
-            let base64String = ""
-            let imagenData : Data = Data(base64Encoded: base64String)!//Proceso inverso de base64 a Data
-            cell.imgView.image = UIImage(data: imagenData)
+            let base64String = productos[indexPath.row].Imagen!
+            let dataDecoded : Data = Data(base64Encoded: base64String)!//Proceso inverso de base64 a Data
+            cell.imgView.image = UIImage(data: dataDecoded)
         }
   
 
@@ -109,7 +109,7 @@ extension GetAllProductoController : SwipeTableViewCellDelegate{
                 
                 //CODIGO A EJECUTAR
                 
-            let result = UsuarioViewModel.Delete(IdUsuario: self.productos[indexPath.row].IdProducto!)
+            let result = ProductoViewModel.Delete(IdProducto: self.productos[indexPath.row].IdProducto!)
                 if result.Correct!{
                     print("Producto Eliminado")
                     self.updateUI()
@@ -131,7 +131,7 @@ extension GetAllProductoController : SwipeTableViewCellDelegate{
                  
                 var result = ProductoViewModel.GetById(IdProducto: self.productos[indexPath.row].IdProducto!)
                 self.IdProducto = self.productos[indexPath.row].IdProducto!
-                self.performSegue(withIdentifier: "FormController", sender: self)
+                self.performSegue(withIdentifier: "FormProductoController", sender: self)
             }
             return [updateAction]
         }

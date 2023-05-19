@@ -3286,6 +3286,53 @@
             endingLineNumber = "150"
             landmarkName = "GetAll()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0EC1D673-3D03-46B0-9B2C-79FC6E9371A6 - d69232a30896d4c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EGarciaEcommerce.ProductoViewModel.GetAll() -&gt; EGarciaEcommerce.Result"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "3456">
+               </Location>
+               <Location
+                  uuid = "0EC1D673-3D03-46B0-9B2C-79FC6E9371A6 - d69232a30896d4c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EGarciaEcommerce.ProductoViewModel.GetAll() -&gt; EGarciaEcommerce.Result"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "3480">
+               </Location>
+               <Location
+                  uuid = "0EC1D673-3D03-46B0-9B2C-79FC6E9371A6 - d69232a30896d4c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static EGarciaEcommerce.ProductoViewModel.GetAll() -&gt; EGarciaEcommerce.Result"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "3660">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3436,7 +3483,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7ED94BDA-2A37-4596-8007-4A91229BEE64"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EGarciaEcommerce/Controller/Usuario/FormController.swift"
@@ -3452,7 +3499,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "EBD9F21B-2F91-43C0-8DA0-96E8C516DA3B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EGarciaEcommerce/Controller/Usuario/FormController.swift"
@@ -3468,19 +3515,34 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - 84b9888913d3537e"
+                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - d7a70bf67d8c1ed6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.String, Swift.Int, Swift.Int) -&gt; () in EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - 84b9888913d3b897"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3490,24 +3552,39 @@
                   urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "116"
-                  endingLineNumber = "116"
-                  offsetFromSymbolStart = "3748">
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "9288">
                </Location>
                <Location
-                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - c3fffac54824031f"
+                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - d7a70bf67d8c1f29"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.String, Swift.Int, Swift.Int) -&gt; () in EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  symbolName = "closure #3 (Swift.String, Swift.Int, Swift.Int) -&gt; () in EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
                   moduleName = "EGarciaEcommerce"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
                   offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "E6A0E31B-530B-4E21-A998-DC5BEBEBB0EE - 84b9888913d3b897"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "9296">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3522,8 +3599,8 @@
             filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "197"
-            endingLineNumber = "197"
+            startingLineNumber = "332"
+            endingLineNumber = "332"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
             <Locations>
@@ -3570,8 +3647,8 @@
             filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "199"
-            endingLineNumber = "199"
+            startingLineNumber = "334"
+            endingLineNumber = "334"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -3579,100 +3656,20 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "45FC7509-C64B-4C46-947C-7EFA37EC232C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "222"
-            endingLineNumber = "222"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "A853F827-9955-4811-B14A-BEE149BA2291"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A853F827-9955-4811-B14A-BEE149BA2291 - fd7e3104d45b534b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EGarciaEcommerce.FormProductoController.imagePickerController(_: __C.UIImagePickerController, didFinishPickingMediaWithInfo: Swift.Dictionary&lt;__C.UIImagePickerControllerInfoKey, Any&gt;) -&gt; ()"
-                  moduleName = "EGarciaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "167"
-                  endingLineNumber = "167"
-                  offsetFromSymbolStart = "576">
-               </Location>
-               <Location
-                  uuid = "A853F827-9955-4811-B14A-BEE149BA2291 - fd7e3104d45b534b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EGarciaEcommerce.FormProductoController.imagePickerController(_: __C.UIImagePickerController, didFinishPickingMediaWithInfo: Swift.Dictionary&lt;__C.UIImagePickerControllerInfoKey, Any&gt;) -&gt; ()"
-                  moduleName = "EGarciaEcommerce"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "167"
-                  endingLineNumber = "167"
-                  offsetFromSymbolStart = "628">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9A833276-D217-4C83-8C29-4196BE517E07"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "btnActionButtons(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a7129506f"
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a71295e1d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3682,12 +3679,12 @@
                   urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "4520">
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "5636">
                </Location>
                <Location
-                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a7129500c"
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a71295e1d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -3697,9 +3694,69 @@
                   urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
                   offsetFromSymbolStart = "4964">
+               </Location>
+               <Location
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a71295e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "4968">
+               </Location>
+               <Location
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a71294623"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "13752">
+               </Location>
+               <Location
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a71294623"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "13796">
+               </Location>
+               <Location
+                  uuid = "2542D850-8B4D-4259-8BE7-93283B5CA372 - eab8f59a7129465d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "12828">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3724,7 +3781,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "49468024-7887-4B26-90A2-58E19FA797FA"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
@@ -3733,6 +3790,754 @@
             startingLineNumber = "26"
             endingLineNumber = "26"
             landmarkName = "Add(producto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57C062EC-74AC-4672-96DE-0D332BD36662"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "tableView(_:editActionsForRowAt:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "258B8EC8-F883-421F-A70B-A114BF074464"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "GetById(IdProducto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE151651-A4CC-4552-B037-2F127BD3B019"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "GetById(IdProducto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA78A928-CD65-40D5-99B6-18FD318F6319"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "tableView(_:editActionsForRowAt:for:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5F5588B-CB01-46AD-A172-0A7400A5BB0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "Update(producto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DB51F43-A0F5-4E0F-B649-505C18D9201A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "337"
+            endingLineNumber = "337"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1DB51F43-A0F5-4E0F-B649-505C18D9201A - 84b9888913d3bc71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "4584">
+               </Location>
+               <Location
+                  uuid = "1DB51F43-A0F5-4E0F-B649-505C18D9201A - 84b9888913d3bc71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "279"
+                  endingLineNumber = "279"
+                  offsetFromSymbolStart = "7764">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03E1195F-95CF-4E9C-AEEA-C582EC7ED047"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "Add(producto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E349E2E8-6AB4-4304-8B38-AE2A5C69072C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "352"
+            endingLineNumber = "352"
+            landmarkName = "convertBase64(imagen:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E349E2E8-6AB4-4304-8B38-AE2A5C69072C - b92c6a708273d2d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.convertBase64(imagen: __C.UIImage) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "E349E2E8-6AB4-4304-8B38-AE2A5C69072C - b92c6a708273d2d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.convertBase64(imagen: __C.UIImage) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "306"
+                  endingLineNumber = "306"
+                  offsetFromSymbolStart = "140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "FormProductoController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - a8dda4ae85c1ddc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.base64.getter : Swift.String"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - 202fb93d9a482a12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.base64.setter : Swift.String"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - 9007616a2ee3c913"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.base64.modify : Swift.String"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - d5cf91b59b10fe6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.base64.modify : Swift.String with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - 14f61d6c9809ca84"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EGarciaEcommerce.FormProductoController"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "488">
+               </Location>
+               <Location
+                  uuid = "9E1CFC3F-8AD7-4CA2-9388-BA60A33182A8 - ec9875bfc9d710a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EGarciaEcommerce.FormProductoController&gt;"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "464">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0ABDF803-4125-4E56-BCD6-1F3325A4CDE2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "btnActionButtons(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0ABDF803-4125-4E56-BCD6-1F3325A4CDE2 - eab8f59a7129465d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "13828">
+               </Location>
+               <Location
+                  uuid = "0ABDF803-4125-4E56-BCD6-1F3325A4CDE2 - eab8f59a7129469f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "144"
+                  endingLineNumber = "144"
+                  offsetFromSymbolStart = "12860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16605B03-5663-4502-B338-FBC8D41CB1BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "Add(producto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D7CDBFC-792E-45B7-989E-0DF78D72B993"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "btnActionButtons(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6D7CDBFC-792E-45B7-989E-0DF78D72B993 - eab8f59a712951a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "4004">
+               </Location>
+               <Location
+                  uuid = "6D7CDBFC-792E-45B7-989E-0DF78D72B993 - eab8f59a712951e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.btnActionButtons(Any) -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "3076">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D09495B-332A-4310-89A5-781F701E95B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "btnActionButtons(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC31D930-1D50-46DD-AE9B-597883C0149D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F02994C-7ABC-4303-AA03-6028CFC3A06F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F02994C-7ABC-4303-AA03-6028CFC3A06F - 93bb14fadc7d344d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "3940">
+               </Location>
+               <Location
+                  uuid = "6F02994C-7ABC-4303-AA03-6028CFC3A06F - 93bb14fadc7d344d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "3880">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F1FB213-975E-40EE-BF15-AFDC084B5DBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "GetById(IdProducto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63234870-4C0C-4717-8078-722361B019AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "GetById(IdProducto:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A69DB900-71FD-451B-9C76-31F31F8ACFBC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/ViewModel/Producto/ProductoViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "GetAll()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6488F5DB-04A7-4FE7-AA25-301B38F1FFCD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6488F5DB-04A7-4FE7-AA25-301B38F1FFCD - 93bb14fadc7d3510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "5560">
+               </Location>
+               <Location
+                  uuid = "6488F5DB-04A7-4FE7-AA25-301B38F1FFCD - 93bb14fadc7d3510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "93"
+                  endingLineNumber = "93"
+                  offsetFromSymbolStart = "5160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "913354DD-9058-4264-ACCC-55BBB0B3BCF4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "913354DD-9058-4264-ACCC-55BBB0B3BCF4 - 93bb14fadc7d358f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "5024">
+               </Location>
+               <Location
+                  uuid = "913354DD-9058-4264-ACCC-55BBB0B3BCF4 - 93bb14fadc7d358f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.GetAllProductoController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "4624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF5DE11B-8480-47F0-B61B-DC27D4DFB9C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/GetAllProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BCB92AE-CAE7-4405-8701-E052FDFB6080"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B9EAFA2-E033-4DF4-9B55-1AC7B437CBAE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "267"
+            endingLineNumber = "267"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0B1396C-9738-4C5D-93AB-DA913B3B8B8F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0B1396C-9738-4C5D-93AB-DA913B3B8B8F - 84b9888913d3bd80"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "294"
+                  endingLineNumber = "294"
+                  offsetFromSymbolStart = "6132">
+               </Location>
+               <Location
+                  uuid = "E0B1396C-9738-4C5D-93AB-DA913B3B8B8F - c3fffac54824ea21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.String, Swift.Int, Swift.Int) -&gt; () in EGarciaEcommerce.FormProductoController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerce"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "295"
+                  endingLineNumber = "295"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C06453A-76FE-4389-A726-8449AC4E9C1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerce/Controller/Producto/FormProductoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "btnActionButtons(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
