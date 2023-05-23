@@ -587,7 +587,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Login" translatesAutoresizingMaskIntoConstraints="NO" id="Gg7-56-x0j">
-                                <rect key="frame" x="0.0" y="47" width="428" height="845"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3237447" translatesAutoresizingMaskIntoConstraints="NO" id="TNC-hf-SiK">
@@ -656,7 +656,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaS-t6-kse">
-                                <rect key="frame" x="154" y="101" width="120" height="32"/>
+                                <rect key="frame" x="154" y="101" width="120" height="31.333333333333343"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -666,12 +666,12 @@
                         <viewLayoutGuide key="safeArea" id="fq0-X5-mYb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Gg7-56-x0j" secondAttribute="bottom" id="3dg-mR-XKO"/>
                             <constraint firstItem="oaS-t6-kse" firstAttribute="leading" secondItem="fq0-X5-mYb" secondAttribute="leading" constant="154" id="7vX-fM-ZPK"/>
+                            <constraint firstItem="Gg7-56-x0j" firstAttribute="top" secondItem="Yul-Bv-FsT" secondAttribute="top" id="I09-1F-ccy"/>
                             <constraint firstItem="TSN-3k-cgq" firstAttribute="top" secondItem="TNC-hf-SiK" secondAttribute="bottom" constant="38" id="Lf4-gh-sWn"/>
                             <constraint firstItem="fq0-X5-mYb" firstAttribute="trailing" secondItem="Gg7-56-x0j" secondAttribute="trailing" id="Uyk-Dv-yRv"/>
                             <constraint firstItem="TNC-hf-SiK" firstAttribute="centerX" secondItem="Gg7-56-x0j" secondAttribute="centerX" id="W9h-4y-OQy"/>
-                            <constraint firstItem="Gg7-56-x0j" firstAttribute="top" secondItem="fq0-X5-mYb" secondAttribute="top" id="aCk-Cx-Nyw"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="Gg7-56-x0j" secondAttribute="bottom" id="asq-j1-UNn"/>
                             <constraint firstItem="fq0-X5-mYb" firstAttribute="trailing" secondItem="TSN-3k-cgq" secondAttribute="trailing" constant="40" id="b6L-GB-irb"/>
                             <constraint firstItem="fq0-X5-mYb" firstAttribute="bottom" secondItem="TNC-hf-SiK" secondAttribute="bottom" constant="511" id="bBe-cL-Emn"/>
                             <constraint firstItem="Gg7-56-x0j" firstAttribute="leading" secondItem="fq0-X5-mYb" secondAttribute="leading" id="hBR-br-2Dt"/>
@@ -694,7 +694,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4UR-0t-85b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1981" y="-71"/>
+            <point key="canvasLocation" x="-1982.2429906542054" y="-71.274298056155516"/>
         </scene>
         <!--Registro Controller-->
         <scene sceneID="etK-4V-loB">
@@ -782,7 +782,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BNG-VC-Rc9">
-                                <rect key="frame" x="149" y="54" width="130" height="32"/>
+                                <rect key="frame" x="149" y="54.000000000000007" width="130" height="31.333333333333336"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -792,17 +792,17 @@
                         <viewLayoutGuide key="safeArea" id="tfN-nk-D13"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="4zl-5p-SgK" secondAttribute="bottom" id="43o-WO-Zl1"/>
                             <constraint firstItem="tfN-nk-D13" firstAttribute="bottom" secondItem="KD0-U0-dHa" secondAttribute="bottom" constant="39" id="A14-IJ-dcT"/>
                             <constraint firstItem="tfN-nk-D13" firstAttribute="trailing" secondItem="4zl-5p-SgK" secondAttribute="trailing" id="Ds0-Lb-6rD"/>
                             <constraint firstItem="tfN-nk-D13" firstAttribute="trailing" secondItem="KD0-U0-dHa" secondAttribute="trailing" constant="40" id="Hnk-ms-eoe"/>
                             <constraint firstItem="u6J-ni-PzG" firstAttribute="leading" secondItem="tfN-nk-D13" secondAttribute="leading" constant="94" id="IZf-dI-eCZ"/>
-                            <constraint firstItem="4zl-5p-SgK" firstAttribute="top" secondItem="tfN-nk-D13" secondAttribute="top" id="U0L-Yj-Pj0"/>
                             <constraint firstItem="KD0-U0-dHa" firstAttribute="top" secondItem="u6J-ni-PzG" secondAttribute="bottom" constant="1" id="Umo-nt-3p2"/>
                             <constraint firstItem="u6J-ni-PzG" firstAttribute="top" secondItem="tfN-nk-D13" secondAttribute="top" constant="94" id="VBf-XP-YGl"/>
                             <constraint firstItem="KD0-U0-dHa" firstAttribute="leading" secondItem="tfN-nk-D13" secondAttribute="leading" constant="40" id="XJf-X1-eXT"/>
+                            <constraint firstAttribute="bottom" secondItem="4zl-5p-SgK" secondAttribute="bottom" id="ZHY-Io-vuA"/>
                             <constraint firstItem="u6J-ni-PzG" firstAttribute="centerX" secondItem="4zl-5p-SgK" secondAttribute="centerX" id="fOG-GL-qvm"/>
                             <constraint firstItem="BNG-VC-Rc9" firstAttribute="leading" secondItem="tfN-nk-D13" secondAttribute="leading" constant="149" id="fiu-Eb-w0Y"/>
+                            <constraint firstItem="4zl-5p-SgK" firstAttribute="top" secondItem="goZ-pg-uWb" secondAttribute="top" id="g4q-3g-7r2"/>
                             <constraint firstItem="BNG-VC-Rc9" firstAttribute="top" secondItem="tfN-nk-D13" secondAttribute="top" constant="54" id="lWg-TX-gEu"/>
                             <constraint firstItem="tfN-nk-D13" firstAttribute="bottom" secondItem="u6J-ni-PzG" secondAttribute="bottom" constant="511" id="leQ-DU-ckk"/>
                             <constraint firstItem="BNG-VC-Rc9" firstAttribute="centerX" secondItem="u6J-ni-PzG" secondAttribute="centerX" id="oju-IZ-68d"/>
@@ -1027,7 +1027,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="EYp-4j-Nr2"/>
+        <segue reference="rGR-hv-nRl"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3237447" width="512" height="512"/>
