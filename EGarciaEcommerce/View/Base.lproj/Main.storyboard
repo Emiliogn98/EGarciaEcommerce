@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4QO-dK-aeO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kUs-se-7aT">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -255,6 +256,142 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vZ-hA-gIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="652" y="-156"/>
+        </scene>
+        <!--Departamento-->
+        <scene sceneID="22r-04-vjk">
+            <objects>
+                <navigationController title="Departamento" id="zpE-pM-Lso" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Departamentos" image="cart" catalog="system" selectedImage="cart" id="hCT-7t-Xb1"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="z5Y-sc-Qhi">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cAG-Xb-CgY" kind="relationship" relationship="rootViewController" id="xR2-ET-xQm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NjA-uz-Fr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-212" y="1287"/>
+        </scene>
+        <!--Area Controller-->
+        <scene sceneID="U6a-go-LYl">
+            <objects>
+                <viewController id="cAG-Xb-CgY" customClass="AreaController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fPR-rc-X6c">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NCd-HY-2RD">
+                                <rect key="frame" x="20" y="124" width="388" height="133"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lS6-OI-vTG">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Gig-KL-UOa">
+                                        <rect key="frame" x="0.0" y="2.6666666666666665" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Tio-pH-H6h">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sQL-WP-EeQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NCd-HY-2RD" firstAttribute="trailing" secondItem="sQL-WP-EeQ" secondAttribute="trailing" constant="-20" id="Sll-f1-6XK"/>
+                            <constraint firstItem="sQL-WP-EeQ" firstAttribute="bottom" secondItem="NCd-HY-2RD" secondAttribute="bottom" constant="620" id="pHD-cE-Esp"/>
+                            <constraint firstItem="NCd-HY-2RD" firstAttribute="leading" secondItem="sQL-WP-EeQ" secondAttribute="leading" constant="20" id="rCD-tc-vaq"/>
+                            <constraint firstItem="NCd-HY-2RD" firstAttribute="top" secondItem="sQL-WP-EeQ" secondAttribute="top" constant="80" id="uwF-CJ-GVg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UlU-4a-zxu"/>
+                    <connections>
+                        <outlet property="collectionDepartamentoArea" destination="NCd-HY-2RD" id="ZHZ-T5-aii"/>
+                        <segue destination="qj9-60-c05" kind="presentation" identifier="AreaDepartamentoSegues" modalPresentationStyle="fullScreen" id="aP0-tL-YeF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mXX-QW-Vgw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="567.75700934579436" y="1286.8250539956805"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="bp4-c5-j2j">
+            <objects>
+                <collectionViewController id="qj9-60-c05" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GZu-F1-1iK">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Tvu-Eu-SL1">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="r1Y-aj-1Yx">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="qda-bJ-oxA">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="qj9-60-c05" id="xvR-cU-PJG"/>
+                            <outlet property="delegate" destination="qj9-60-c05" id="aCR-NV-dQN"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <segue destination="YKf-AS-ppt" kind="presentation" identifier="DepartamentoProductoSegue" modalPresentationStyle="fullScreen" id="ej5-po-1eE"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgu-46-iAQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1368" y="1280"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="wBy-GR-hjD">
+            <objects>
+                <collectionViewController id="YKf-AS-ppt" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="wYH-9C-iQe">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pxg-gv-Jkr">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="hfH-IY-Xvf">
+                                <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bx5-8e-cGs">
+                                    <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </collectionViewCellContentView>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="YKf-AS-ppt" id="rSg-UK-R2w"/>
+                            <outlet property="delegate" destination="YKf-AS-ppt" id="SCI-IT-LLQ"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQw-VT-xCO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2167" y="1280"/>
         </scene>
         <!--Producto-->
         <scene sceneID="OOv-DE-gV3">
@@ -1002,11 +1139,12 @@
                         <segue destination="kOg-F0-RqA" kind="relationship" relationship="viewControllers" id="PhF-hq-51u"/>
                         <segue destination="dRw-Qp-NBH" kind="relationship" relationship="viewControllers" id="1fE-gQ-sDU"/>
                         <segue destination="f3A-nN-292" kind="relationship" relationship="viewControllers" id="TkI-8q-hgL"/>
+                        <segue destination="zpE-pM-Lso" kind="relationship" relationship="viewControllers" id="lx9-rI-oMJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1W8-uS-bKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1114" y="-71"/>
+            <point key="canvasLocation" x="-1124" y="196"/>
         </scene>
         <!--Roles-->
         <scene sceneID="Mzg-2Z-56c">
@@ -1033,6 +1171,7 @@
         <image name="3237447" width="512" height="512"/>
         <image name="Login" width="284" height="177"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
+        <image name="cart" catalog="system" width="128" height="102"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="opaqueSeparatorColor">
