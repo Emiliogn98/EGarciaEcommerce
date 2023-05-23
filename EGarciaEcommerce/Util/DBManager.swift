@@ -36,7 +36,7 @@ public class DBManager {
         }
         else
         {
-            print("conexion existosa el pat: \(filePath)")
+         //   print("conexion existosa el pat: \(filePath)")
             return db
         }
     }

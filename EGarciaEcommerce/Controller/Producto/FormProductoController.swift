@@ -86,6 +86,7 @@ class FormProductoController: UIViewController {
         producto.Departamento?.IdDepartamento = IdDepartamento
         //guards
         guard txtNombre.text != "" else {
+            lblNombre.isHidden = true
             lblNombre.text = "Campo Requerido"
             lblNombre.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
@@ -94,8 +95,10 @@ class FormProductoController: UIViewController {
                 }
         txtNombre.backgroundColor = .clear
            lblNombre.text = ""
+        lblNombre.isHidden = false
         lblNombre.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
         guard txtPrecioUnitario.text != "" else {
+            lblPrecioUnitario.isHidden = true
             lblPrecioUnitario.text = "Campo Requerido"
             lblPrecioUnitario.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
@@ -104,8 +107,10 @@ class FormProductoController: UIViewController {
                 }
         txtPrecioUnitario.backgroundColor = .clear
            lblPrecioUnitario.text = ""
+        lblPrecioUnitario.isHidden = false
         lblPrecioUnitario.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
         guard txtStock.text != "" else {
+            lblStock.isHidden = true
             lblStock.text = "Campo Requerido"
             lblStock.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
@@ -114,8 +119,10 @@ class FormProductoController: UIViewController {
                 }
         txtStock.backgroundColor = .clear
            lblStock.text = ""
+        lblStock.isHidden = false
         lblStock.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
         guard ddlIdDepartamento.text != "" else {
+            lblDepartamento.isHidden = true
             lblDepartamento.text = "Campo Requerido"
             lblDepartamento.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
@@ -124,8 +131,10 @@ class FormProductoController: UIViewController {
                 }
         ddlIdDepartamento.backgroundColor = .clear
            lblDepartamento.text = ""
+        lblDepartamento.isHidden = false
         lblDepartamento.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
         guard ddlIdProveedor.text != "" else {
+            ddlIdProveedor.isHidden = true
             lblProveedor.text = "Campo Requerido"
             lblProveedor.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
@@ -134,9 +143,11 @@ class FormProductoController: UIViewController {
                 }
         ddlIdProveedor.backgroundColor = .clear
            lblProveedor.text = ""
+        lblProveedor.isHidden = false
         lblProveedor.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
         guard txtDescripcion.text != "" else {
             lblDescripcion.text = "Campo Requerido"
+            lblDescripcion.isHidden = true
             lblDescripcion.textColor  = .red
             //txtNombreOutlet.backgroundColor = .red
             lblDescripcion.layer.addWaghaBorder(edge: .top, color: UIColor.red, thickness: 1)
@@ -144,6 +155,7 @@ class FormProductoController: UIViewController {
                 }
         txtDescripcion.backgroundColor = .clear
            lblDescripcion.text = ""
+        lblDescripcion.isHidden = false
         lblDescripcion.layer.addWaghaBorder(edge: .top, color: UIColor.white, thickness: 1)
 
         
