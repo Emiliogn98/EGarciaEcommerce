@@ -63,6 +63,13 @@ class RegistroController: UIViewController {
                        lblValidarContrasenia.text = ""
                 txtValidarContrasenia.layer.borderColor = color2
                 txtValidarContrasenia.layer.borderWidth = 1.0
+                
+                guard txtContrasenia.text == txtValidarContrasenia.text else{
+                    
+                    
+                    
+                    return
+                }
                        
                 Auth.auth().createUser(withEmail: txtCorreo.text!, password: txtContrasenia.text!) { authResult, error in
                     // ...
