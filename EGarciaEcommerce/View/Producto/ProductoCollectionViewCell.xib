@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductoCollectionViewCell" id="gTV-IL-0wX" customClass="ProductoCollectionViewCell" customModule="EGarciaEcommerce" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="180" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="180" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="LTj-Xc-aOL">
+                        <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gN9-UE-OW3">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="150"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="Fyo-eW-45Q"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="HPe-L1-Jbi"/>
+                            <constraint firstAttribute="height" constant="150" id="r3s-sV-bKS"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="7jk-JT-uwi">
+                        <rect key="frame" x="0.0" y="150" width="180" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDG-SF-MTt">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="21.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F59-VV-U3G">
+                                <rect key="frame" x="0.0" y="21.333333333333343" width="180" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuS-q2-Cwo">
+                                <rect key="frame" x="0.0" y="42.666666666666657" width="180" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IpR-ba-0uk">
+                                <rect key="frame" x="0.0" y="64" width="180" height="36"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="cart" catalog="system"/>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="hBO-r2-Jeu"/>
+                            <constraint firstAttribute="height" constant="100" id="qZi-lc-Q9M"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LTj-Xc-aOL" secondAttribute="bottom" constant="100" id="8H4-gu-Cef"/>
+                <constraint firstItem="LTj-Xc-aOL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8KB-gE-YL9"/>
+                <constraint firstAttribute="trailing" secondItem="7jk-JT-uwi" secondAttribute="trailing" id="LmV-sG-loB"/>
+                <constraint firstItem="LTj-Xc-aOL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="gyF-8I-OLK"/>
+                <constraint firstAttribute="trailing" secondItem="LTj-Xc-aOL" secondAttribute="trailing" id="q86-UT-KLw"/>
+                <constraint firstItem="7jk-JT-uwi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="150" id="vAI-nf-fcc"/>
+                <constraint firstItem="7jk-JT-uwi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xYl-nh-I7O"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="gN9-UE-OW3" id="Wt5-Yw-yU8"/>
+                <outlet property="lblDescripcion" destination="F59-VV-U3G" id="Hrv-m9-Wut"/>
+                <outlet property="lblNombre" destination="eDG-SF-MTt" id="ZFH-Jl-a4v"/>
+                <outlet property="lblPrecio" destination="NuS-q2-Cwo" id="1Y7-f0-hiX"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+    </resources>
+</document>

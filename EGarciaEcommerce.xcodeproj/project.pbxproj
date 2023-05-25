@@ -29,8 +29,8 @@
 		E36ABC312A1D487F00CE6CCE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC302A1D487F00CE6CCE /* FirebaseAuth */; };
 		E36ABC332A1D487F00CE6CCE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC322A1D487F00CE6CCE /* FirebaseCrashlytics */; };
 		E36ABC352A1D487F00CE6CCE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC342A1D487F00CE6CCE /* FirebaseStorage */; };
-		E36ABC382A1D4C7300CE6CCE /* DepartamentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC362A1D4C7300CE6CCE /* DepartamentoCell.swift */; };
-		E36ABC392A1D4C7300CE6CCE /* DepartamentoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36ABC372A1D4C7300CE6CCE /* DepartamentoCell.xib */; };
+		E36ABC412A1D758F00CE6CCE /* AreaDepartamentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC3F2A1D758F00CE6CCE /* AreaDepartamentoCell.swift */; };
+		E36ABC422A1D758F00CE6CCE /* AreaDepartamentoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E36ABC402A1D758F00CE6CCE /* AreaDepartamentoCell.xib */; };
 		E37347A62A156542000D4E63 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
 		E37347AA2A157209000D4E63 /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */; };
 		E37347AC2A157221000D4E63 /* ProveedorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347AB2A157221000D4E63 /* ProveedorViewModel.swift */; };
@@ -42,6 +42,8 @@
 		E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E029FAFD6E006C0CAD /* Assets.xcassets */; };
 		E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E229FAFD6E006C0CAD /* LaunchScreen.storyboard */; };
 		E3C680E22A181F3900BCCF12 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C680E12A181F3900BCCF12 /* LoginController.swift */; };
+		E3CC03B12A1E9FD100CA9937 /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */; };
+		E3CC03B22A1E9FD100CA9937 /* ProductoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */; };
 		E3D2A1122A16D50E007BB13F /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */; };
 		E3DA70192A1BFF3F00A6B53E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */; };
 		E3DA701B2A1C00B300A6B53E /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA701A2A1C00B300A6B53E /* RegistroController.swift */; };
@@ -76,8 +78,8 @@
 		E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
 		E36ABC2B2A1D467900CE6CCE /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
 		E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
-		E36ABC362A1D4C7300CE6CCE /* DepartamentoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoCell.swift; sourceTree = "<group>"; };
-		E36ABC372A1D4C7300CE6CCE /* DepartamentoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DepartamentoCell.xib; sourceTree = "<group>"; };
+		E36ABC3F2A1D758F00CE6CCE /* AreaDepartamentoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDepartamentoCell.swift; sourceTree = "<group>"; };
+		E36ABC402A1D758F00CE6CCE /* AreaDepartamentoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaDepartamentoCell.xib; sourceTree = "<group>"; };
 		E37347A52A156542000D4E63 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
 		E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoViewModel.swift; sourceTree = "<group>"; };
 		E37347AB2A157221000D4E63 /* ProveedorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProveedorViewModel.swift; sourceTree = "<group>"; };
@@ -91,6 +93,8 @@
 		E3A135E329FAFD6E006C0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A135E529FAFD6E006C0CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3C680E12A181F3900BCCF12 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionViewCell.xib; sourceTree = "<group>"; };
 		E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3DA701A2A1C00B300A6B53E /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 			children = (
 				E33B71E52A140F3900C1CB6D /* ProductoCell.xib */,
 				E33B71E42A140F3900C1CB6D /* ProductoCell.swift */,
+				E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */,
+				E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */,
 			);
 			path = Producto;
 			sourceTree = "<group>";
@@ -167,8 +173,8 @@
 		E36ABC3A2A1D4C7C00CE6CCE /* Departamento */ = {
 			isa = PBXGroup;
 			children = (
-				E36ABC372A1D4C7300CE6CCE /* DepartamentoCell.xib */,
-				E36ABC362A1D4C7300CE6CCE /* DepartamentoCell.swift */,
+				E36ABC3F2A1D758F00CE6CCE /* AreaDepartamentoCell.swift */,
+				E36ABC402A1D758F00CE6CCE /* AreaDepartamentoCell.xib */,
 			);
 			path = Departamento;
 			sourceTree = "<group>";
@@ -240,14 +246,11 @@
 		E382C6612A04366100D22EFA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				E3DA701A2A1C00B300A6B53E /* RegistroController.swift */,
-				E3C680E12A181F3900BCCF12 /* LoginController.swift */,
+				E3CC03B42A1EB6DD00CA9937 /* Login */,
+				E3CC03B32A1EB6C600CA9937 /* Ventas */,
 				E33B71DB2A140C5600C1CB6D /* Producto */,
 				E3FEE8C72A0B07AA00315063 /* Rol */,
 				E3FEE8C62A0B078600315063 /* Usuario */,
-				E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */,
-				E36ABC2B2A1D467900CE6CCE /* AreaController.swift */,
-				E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,6 +298,25 @@
 				E32B57C129FC5DB200A1EA76 /* EGarciaBD.db */,
 			);
 			path = EGarciaEcommerce;
+			sourceTree = "<group>";
+		};
+		E3CC03B32A1EB6C600CA9937 /* Ventas */ = {
+			isa = PBXGroup;
+			children = (
+				E36ABC2B2A1D467900CE6CCE /* AreaController.swift */,
+				E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */,
+				E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */,
+			);
+			path = Ventas;
+			sourceTree = "<group>";
+		};
+		E3CC03B42A1EB6DD00CA9937 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E3C680E12A181F3900BCCF12 /* LoginController.swift */,
+				E3DA701A2A1C00B300A6B53E /* RegistroController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 		E3D2A1102A16D4F9007BB13F /* Area */ = {
@@ -417,7 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31117D12A02ED5400FA2013 /* UsuarioCell.xib in Resources */,
-				E36ABC392A1D4C7300CE6CCE /* DepartamentoCell.xib in Resources */,
+				E36ABC422A1D758F00CE6CCE /* AreaDepartamentoCell.xib in Resources */,
+				E3CC03B22A1E9FD100CA9937 /* ProductoCollectionViewCell.xib in Resources */,
 				E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */,
 				E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */,
 				E3FEE8CD2A0B086800315063 /* RolCell.xib in Resources */,
@@ -480,6 +503,7 @@
 				E32B57BE29FC541700A1EA76 /* DBManager.swift in Sources */,
 				E3FEE8C22A0AE52A00315063 /* FormRolController.swift in Sources */,
 				E3C680E22A181F3900BCCF12 /* LoginController.swift in Sources */,
+				E3CC03B12A1E9FD100CA9937 /* ProductoCollectionViewCell.swift in Sources */,
 				E33B71DD2A140CB700C1CB6D /* GetAllProductoController.swift in Sources */,
 				E33B71EB2A140F7900C1CB6D /* Proveedor.swift in Sources */,
 				E33B71E22A140EFB00C1CB6D /* ProductoViewModel.swift in Sources */,
@@ -493,9 +517,9 @@
 				E37347AA2A157209000D4E63 /* DepartamentoViewModel.swift in Sources */,
 				E3A135DC29FAFD6D006C0CAD /* FormController.swift in Sources */,
 				E3DA701B2A1C00B300A6B53E /* RegistroController.swift in Sources */,
+				E36ABC412A1D758F00CE6CCE /* AreaDepartamentoCell.swift in Sources */,
 				E3FEE8C42A0AE5BA00315063 /* GetAllRolController.swift in Sources */,
 				E31117D02A02ED5400FA2013 /* UsuarioCell.swift in Sources */,
-				E36ABC382A1D4C7300CE6CCE /* DepartamentoCell.swift in Sources */,
 				E3FEE8BA2A0ACB7F00315063 /* Rol.swift in Sources */,
 				E3A135D829FAFD6D006C0CAD /* AppDelegate.swift in Sources */,
 				E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */,

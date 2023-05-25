@@ -274,7 +274,7 @@ class FormProductoController: UIViewController {
         ddlIdArea.didSelect {selectedText, index, id in
             self.IdArea = id
             
-            let resultIdAreaDepartamento = DepartamentoViewModel.GetById(IdArea: id)
+            let resultIdAreaDepartamento = DepartamentoViewModel.GetByArea(IdArea: id)
             if resultIdAreaDepartamento.Correct!{
                 for objAreaDepartamento in resultIdAreaDepartamento.Objects!{
                     let depaArea =  objAreaDepartamento as! Departamento

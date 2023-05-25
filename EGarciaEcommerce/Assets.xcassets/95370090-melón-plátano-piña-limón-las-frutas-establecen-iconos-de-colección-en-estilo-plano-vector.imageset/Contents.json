@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "95370090-melón-plátano-piña-limón-las-frutas-establecen-iconos-de-colección-en-estilo-plano-vector.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
