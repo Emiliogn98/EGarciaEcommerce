@@ -15,6 +15,8 @@ class GetAllUsuarioController: UITableViewController {
     var result = Result()
     var IdUsuario : Int = 0, IdRol : Int = 0
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UINib(nibName :"UsuarioCell", bundle: .main), forCellReuseIdentifier: "UsuarioCell")
@@ -36,6 +38,16 @@ class GetAllUsuarioController: UITableViewController {
     override func viewDidAppear(_ animated: Bool) {
       print("aparecio la vista : DidAppear GetAll")
     }
+    
+    
+    
+    
+   
+    @IBAction func btnSalir(_ sender: UIButton) {
+        performSegue(withIdentifier: "SalirSegue", sender: self)
+    }
+    
+    
     // MARK: - Table view data source
     func updateUI(){
         var result = UsuarioViewModel.GetAll()
@@ -80,7 +92,7 @@ class GetAllUsuarioController: UITableViewController {
         
         cell.txtNombreOutlet.text = "Nombre: \(usuarios[indexPath.row].Nombre!)"
         cell.txtApellidoPaterno.text = "ApellidoPaterno: \(usuarios[indexPath.row].ApellidoPaterno!)"
-        cell.txtID.text = "ID: \(String(usuarios[indexPath.row].IdUsuario!))"
+       // cell.txtID.text = "ID: \(String(usuarios[indexPath.row].IdUsuario!))"
         cell.txtFechaNacimientoOutlet.text = "FechaNacimiento: \(usuarios[indexPath.row].FechaNacimiento!)"
         cell.txtUserNameOutlet.text = "Username: \(usuarios[indexPath.row].UserName!)"
        

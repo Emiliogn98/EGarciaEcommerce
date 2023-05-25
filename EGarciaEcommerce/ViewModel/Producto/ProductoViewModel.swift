@@ -256,16 +256,14 @@ class ProductoViewModel {
     {
         var context = DBManager()
         var result = Result()
-        var query = "SELECT IdProducto,Producto.Nombre as NombreProductos,PrecioUnitario,Stock,Descripcion,Imagen,Producto.IdProveedor,Proveedor.Nombre as Proveedor, Producto.IdDepartamento,Departamento.Nombre as Departamento FROM Producto INNER JOIN Proveedor  on Proveedor.IdProveedor = Producto.IdProveedor INNER JOIN Departamento on Departamento.IdDepartamento = Producto.IdDepartamento WHERE Nombre LIKE %\(nombreProducto)%"
+        var query = "SELECT IdProducto,Producto.Nombre as NombreProductos,PrecioUnitario,Stock,Descripcion,Imagen,Producto.IdProveedor,Proveedor.Nombre as Proveedor, Producto.IdDepartamento,Departamento.Nombre as Departamento FROM Producto INNER JOIN Proveedor  on Proveedor.IdProveedor = Producto.IdProveedor INNER JOIN Departamento on Departamento.IdDepartamento = Producto.IdDepartamento WHERE Producto.Nombre LIKE '%\(nombreProducto)%'"
   
         var statement: OpaquePointer? = nil
         do {
-            
             if try sqlite3_prepare_v2(context.db, query, -1, &statement, nil) == SQLITE_OK {
-                  
-                let producto = Producto()
-                   
-                if try sqlite3_step(statement) == SQLITE_ROW {
+                result.Objects = []
+                while try sqlite3_step(statement) == SQLITE_ROW {
+                    var producto = Producto()
                     producto.IdProducto = Int(sqlite3_column_int(statement, 0))
                     producto.Nombre = String(describing: String(cString: sqlite3_column_text(statement,1)))
                     producto.PrecioUnitario = Double(sqlite3_column_double(statement,2))
@@ -278,13 +276,14 @@ class ProductoViewModel {
                     producto.Departamento = Departamento()
                     producto.Departamento?.IdDepartamento = Int(sqlite3_column_int(statement, 8))
                     producto.Departamento?.Nombre = String(describing: String(cString: sqlite3_column_text(statement,9)))
-                    result.Object = producto
-                    result.Correct=true
-                } else {
-                    print("ocurrio un error al obtener el producto")
-                    result.Correct=false
                     
+                    
+                    result.Objects?.append(producto)
                 }
+                result.Correct = true
+            } else {
+                result.Correct = false
+                print("ocurrio un error")
             }
             sqlite3_finalize(statement)
             
