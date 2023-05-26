@@ -41,6 +41,35 @@
 		E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135DD29FAFD6D006C0CAD /* Main.storyboard */; };
 		E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E029FAFD6E006C0CAD /* Assets.xcassets */; };
 		E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E229FAFD6E006C0CAD /* LaunchScreen.storyboard */; };
+		E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
+		E3B5DC352A1FE53600A4373A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */; };
+		E3B5DC3A2A1FE53600A4373A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC382A1FE53600A4373A /* Main.storyboard */; };
+		E3B5DC3C2A1FE53700A4373A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC3B2A1FE53700A4373A /* Assets.xcassets */; };
+		E3B5DC3F2A1FE53700A4373A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC3D2A1FE53700A4373A /* LaunchScreen.storyboard */; };
+		E3B5DC462A1FE8DD00A4373A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30620382A018C61005D4246 /* Result.swift */; };
+		E3B5DC472A1FE8FB00A4373A /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
+		E3B5DC482A1FE90F00A4373A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
+		E3B5DC492A1FE92000A4373A /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
+		E3B5DC4A2A1FE92D00A4373A /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
+		E3B5DC4B2A1FE94500A4373A /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */; };
+		E3B5DC4C2A1FE94E00A4373A /* DepartamentoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A92A157209000D4E63 /* DepartamentoViewModel.swift */; };
+		E3B5DC4D2A1FE95900A4373A /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */; };
+		E3B5DC552A1FEC2C00A4373A /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC542A1FEC2C00A4373A /* AreaController.swift */; };
+		E3B5DC572A1FEC9500A4373A /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC562A1FEC9500A4373A /* ProductoCollectionController.swift */; };
+		E3B5DC592A1FECEB00A4373A /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC582A1FECEB00A4373A /* DepartamentoController.swift */; };
+		E3B5DC5D2A1FEDC900A4373A /* AreaDepartamentoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC5B2A1FEDC900A4373A /* AreaDepartamentoCell.swift */; };
+		E3B5DC5E2A1FEDC900A4373A /* AreaDepartamentoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC5C2A1FEDC900A4373A /* AreaDepartamentoCell.xib */; };
+		E3B5DC642A1FEF5C00A4373A /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC622A1FEF5C00A4373A /* ProductoCollectionViewCell.swift */; };
+		E3B5DC652A1FEF5C00A4373A /* ProductoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC632A1FEF5C00A4373A /* ProductoCollectionViewCell.xib */; };
+		E3B5DC662A1FF1B700A4373A /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
+		E3B5DC692A1FF4EE00A4373A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E3B5DC682A1FF4EE00A4373A /* FirebaseAuth */; };
+		E3B5DC6B2A1FF4FB00A4373A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E3B5DC6A2A1FF4FB00A4373A /* FirebaseStorage */; };
+		E3B5DC6D2A1FF54F00A4373A /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E3B5DC6C2A1FF54F00A4373A /* FirebaseCrashlytics */; };
+		E3B5DC6F2A1FF67A00A4373A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC6E2A1FF67A00A4373A /* LoginController.swift */; };
+		E3B5DC712A1FF6B800A4373A /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC702A1FF6B800A4373A /* RegistroController.swift */; };
+		E3B5DC722A20063D00A4373A /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */; };
+		E3B5DC752A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC732A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld */; };
+		E3B5DC772A200A5600A4373A /* VentaProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */; };
 		E3C680E22A181F3900BCCF12 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C680E12A181F3900BCCF12 /* LoginController.swift */; };
 		E3CC03B12A1E9FD100CA9937 /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */; };
 		E3CC03B22A1E9FD100CA9937 /* ProductoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */; };
@@ -92,6 +121,26 @@
 		E3A135E029FAFD6E006C0CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A135E329FAFD6E006C0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A135E529FAFD6E006C0CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGarciaEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B5DC322A1FE53600A4373A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E3B5DC392A1FE53600A4373A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3B5DC3B2A1FE53700A4373A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3B5DC3E2A1FE53700A4373A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3B5DC402A1FE53700A4373A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3B5DC442A1FE58C00A4373A /* EGarciaEcommerce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EGarciaEcommerce.entitlements; sourceTree = "<group>"; };
+		E3B5DC452A1FE60600A4373A /* EGarciaEcommerceVenta.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EGarciaEcommerceVenta.entitlements; sourceTree = "<group>"; };
+		E3B5DC542A1FEC2C00A4373A /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
+		E3B5DC562A1FEC9500A4373A /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
+		E3B5DC582A1FECEB00A4373A /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
+		E3B5DC5B2A1FEDC900A4373A /* AreaDepartamentoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDepartamentoCell.swift; sourceTree = "<group>"; };
+		E3B5DC5C2A1FEDC900A4373A /* AreaDepartamentoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaDepartamentoCell.xib; sourceTree = "<group>"; };
+		E3B5DC622A1FEF5C00A4373A /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E3B5DC632A1FEF5C00A4373A /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionViewCell.xib; sourceTree = "<group>"; };
+		E3B5DC6E2A1FF67A00A4373A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E3B5DC702A1FF6B800A4373A /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		E3B5DC742A20094B00A4373A /* EGarciaEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EGarciaEcommerce.xcdatamodel; sourceTree = "<group>"; };
+		E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentaProductoViewModel.swift; sourceTree = "<group>"; };
 		E3C680E12A181F3900BCCF12 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -117,6 +166,16 @@
 				E36ABC312A1D487F00CE6CCE /* FirebaseAuth in Frameworks */,
 				E36ABC352A1D487F00CE6CCE /* FirebaseStorage in Frameworks */,
 				3E60609998DFD33D3F463463 /* Pods_EGarciaEcommerce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B5DC2D2A1FE53600A4373A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B5DC6D2A1FF54F00A4373A /* FirebaseCrashlytics in Frameworks */,
+				E3B5DC692A1FF4EE00A4373A /* FirebaseAuth in Frameworks */,
+				E3B5DC6B2A1FF4FB00A4373A /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +328,7 @@
 			children = (
 				E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */,
 				E3A135D629FAFD6D006C0CAD /* EGarciaEcommerce */,
+				E3B5DC312A1FE53600A4373A /* EGarciaEcommerceVenta */,
 				E3A135D529FAFD6D006C0CAD /* Products */,
 				1A1D959AC57A2772AD1CBB43 /* Pods */,
 				9A74304952A5662F709C83AB /* Frameworks */,
@@ -279,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */,
+				E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,6 +347,7 @@
 		E3A135D629FAFD6D006C0CAD /* EGarciaEcommerce */ = {
 			isa = PBXGroup;
 			children = (
+				E3B5DC442A1FE58C00A4373A /* EGarciaEcommerce.entitlements */,
 				E382C6612A04366100D22EFA /* Controller */,
 				E382C6602A04364600D22EFA /* Util */,
 				E382C65F2A04363D00D22EFA /* ViewModel */,
@@ -298,6 +360,79 @@
 				E32B57C129FC5DB200A1EA76 /* EGarciaBD.db */,
 			);
 			path = EGarciaEcommerce;
+			sourceTree = "<group>";
+		};
+		E3B5DC312A1FE53600A4373A /* EGarciaEcommerceVenta */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC512A1FE9EF00A4373A /* View */,
+				E3B5DC502A1FE9E000A4373A /* Controller */,
+				E3B5DC4F2A1FE9A400A4373A /* ViewModel */,
+				E3B5DC4E2A1FE99A00A4373A /* Model */,
+				E3B5DC452A1FE60600A4373A /* EGarciaEcommerceVenta.entitlements */,
+				E3B5DC322A1FE53600A4373A /* AppDelegate.swift */,
+				E3B5DC732A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld */,
+				E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */,
+				E3B5DC382A1FE53600A4373A /* Main.storyboard */,
+				E3B5DC3B2A1FE53700A4373A /* Assets.xcassets */,
+				E3B5DC3D2A1FE53700A4373A /* LaunchScreen.storyboard */,
+				E3B5DC402A1FE53700A4373A /* Info.plist */,
+			);
+			path = EGarciaEcommerceVenta;
+			sourceTree = "<group>";
+		};
+		E3B5DC4E2A1FE99A00A4373A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3B5DC4F2A1FE9A400A4373A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E3B5DC502A1FE9E000A4373A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC542A1FEC2C00A4373A /* AreaController.swift */,
+				E3B5DC562A1FEC9500A4373A /* ProductoCollectionController.swift */,
+				E3B5DC582A1FECEB00A4373A /* DepartamentoController.swift */,
+				E3B5DC6E2A1FF67A00A4373A /* LoginController.swift */,
+				E3B5DC702A1FF6B800A4373A /* RegistroController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3B5DC512A1FE9EF00A4373A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC5F2A1FEF0300A4373A /* Producto */,
+				E3B5DC5A2A1FED9000A4373A /* Departamento */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3B5DC5A2A1FED9000A4373A /* Departamento */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC5B2A1FEDC900A4373A /* AreaDepartamentoCell.swift */,
+				E3B5DC5C2A1FEDC900A4373A /* AreaDepartamentoCell.xib */,
+			);
+			path = Departamento;
+			sourceTree = "<group>";
+		};
+		E3B5DC5F2A1FEF0300A4373A /* Producto */ = {
+			isa = PBXGroup;
+			children = (
+				E3B5DC622A1FEF5C00A4373A /* ProductoCollectionViewCell.swift */,
+				E3B5DC632A1FEF5C00A4373A /* ProductoCollectionViewCell.xib */,
+			);
+			path = Producto;
 			sourceTree = "<group>";
 		};
 		E3CC03B32A1EB6C600CA9937 /* Ventas */ = {
@@ -397,6 +532,28 @@
 			productReference = E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B5DC432A1FE53700A4373A /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVenta" */;
+			buildPhases = (
+				E3B5DC2C2A1FE53600A4373A /* Sources */,
+				E3B5DC2D2A1FE53600A4373A /* Frameworks */,
+				E3B5DC2E2A1FE53600A4373A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGarciaEcommerceVenta;
+			packageProductDependencies = (
+				E3B5DC682A1FF4EE00A4373A /* FirebaseAuth */,
+				E3B5DC6A2A1FF4FB00A4373A /* FirebaseStorage */,
+				E3B5DC6C2A1FF54F00A4373A /* FirebaseCrashlytics */,
+			);
+			productName = EGarciaEcommerceVenta;
+			productReference = E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -408,6 +565,9 @@
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					E3A135D329FAFD6D006C0CAD = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E3B5DC2F2A1FE53600A4373A = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -429,6 +589,7 @@
 			projectRoot = "";
 			targets = (
 				E3A135D329FAFD6D006C0CAD /* EGarciaEcommerce */,
+				E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */,
 			);
 		};
 /* End PBXProject section */
@@ -447,6 +608,18 @@
 				E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */,
 				E33B71E72A140F3900C1CB6D /* ProductoCell.xib in Resources */,
 				E3DA70192A1BFF3F00A6B53E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3B5DC2E2A1FE53600A4373A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B5DC3F2A1FE53700A4373A /* LaunchScreen.storyboard in Resources */,
+				E3B5DC3C2A1FE53700A4373A /* Assets.xcassets in Resources */,
+				E3B5DC5E2A1FEDC900A4373A /* AreaDepartamentoCell.xib in Resources */,
+				E3B5DC3A2A1FE53600A4373A /* Main.storyboard in Resources */,
+				E3B5DC652A1FEF5C00A4373A /* ProductoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +707,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3B5DC2C2A1FE53600A4373A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B5DC722A20063D00A4373A /* GoogleService-Info.plist in Sources */,
+				E3B5DC662A1FF1B700A4373A /* Proveedor.swift in Sources */,
+				E3B5DC4D2A1FE95900A4373A /* ProductoViewModel.swift in Sources */,
+				E3B5DC572A1FEC9500A4373A /* ProductoCollectionController.swift in Sources */,
+				E3B5DC592A1FECEB00A4373A /* DepartamentoController.swift in Sources */,
+				E3B5DC642A1FEF5C00A4373A /* ProductoCollectionViewCell.swift in Sources */,
+				E3B5DC552A1FEC2C00A4373A /* AreaController.swift in Sources */,
+				E3B5DC4C2A1FE94E00A4373A /* DepartamentoViewModel.swift in Sources */,
+				E3B5DC4B2A1FE94500A4373A /* AreaViewModel.swift in Sources */,
+				E3B5DC5D2A1FEDC900A4373A /* AreaDepartamentoCell.swift in Sources */,
+				E3B5DC4A2A1FE92D00A4373A /* DBManager.swift in Sources */,
+				E3B5DC492A1FE92000A4373A /* Producto.swift in Sources */,
+				E3B5DC6F2A1FF67A00A4373A /* LoginController.swift in Sources */,
+				E3B5DC752A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld in Sources */,
+				E3B5DC482A1FE90F00A4373A /* Area.swift in Sources */,
+				E3B5DC472A1FE8FB00A4373A /* Departamento.swift in Sources */,
+				E3B5DC462A1FE8DD00A4373A /* Result.swift in Sources */,
+				E3B5DC772A200A5600A4373A /* VentaProductoViewModel.swift in Sources */,
+				E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */,
+				E3B5DC712A1FF6B800A4373A /* RegistroController.swift in Sources */,
+				E3B5DC352A1FE53600A4373A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -549,6 +750,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E3A135E329FAFD6E006C0CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E3B5DC382A1FE53600A4373A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B5DC392A1FE53600A4373A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3B5DC3D2A1FE53700A4373A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3B5DC3E2A1FE53700A4373A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -676,6 +893,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EGarciaEcommerce/EGarciaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LAT49JHA2;
@@ -705,6 +923,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EGarciaEcommerce/EGarciaEcommerce.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8LAT49JHA2;
@@ -721,6 +940,64 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3B5DC412A1FE53700A4373A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EGarciaEcommerceVenta/EGarciaEcommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EGarciaEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3B5DC422A1FE53700A4373A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EGarciaEcommerceVenta/EGarciaEcommerceVenta.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EGarciaEcommerceVenta/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVenta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -745,6 +1022,15 @@
 			buildConfigurations = (
 				E3A135E929FAFD6E006C0CAD /* Debug */,
 				E3A135EA29FAFD6E006C0CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B5DC432A1FE53700A4373A /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3B5DC412A1FE53700A4373A /* Debug */,
+				E3B5DC422A1FE53700A4373A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -778,7 +1064,35 @@
 			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseStorage;
 		};
+		E3B5DC682A1FF4EE00A4373A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E3B5DC6A2A1FF4FB00A4373A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E3B5DC6C2A1FF54F00A4373A /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E3B5DC732A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3B5DC742A20094B00A4373A /* EGarciaEcommerce.xcdatamodel */,
+			);
+			currentVersion = E3B5DC742A20094B00A4373A /* EGarciaEcommerce.xcdatamodel */;
+			path = EGarciaEcommerce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E3A135CC29FAFD6D006C0CAD /* Project object */;
 }

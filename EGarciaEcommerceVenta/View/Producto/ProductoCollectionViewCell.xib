@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductoCollectionViewCell" id="tdE-pZ-5SK" customClass="ProductoCollectionViewCell" customModule="EGarciaEcommerceVenta" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="250"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="veq-1s-IXd">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="taO-jz-hFb">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="150"/>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="200" id="RsE-Zh-vN9"/>
+                            <constraint firstAttribute="height" constant="150" id="ani-Ur-3Vu"/>
+                        </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="VMW-Lb-MoL">
+                        <rect key="frame" x="0.0" y="150" width="200" height="100"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="srE-uM-ZlT">
+                                <rect key="frame" x="0.0" y="0.0" width="200" height="21.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyT-2h-v47">
+                                <rect key="frame" x="0.0" y="21.333333333333343" width="200" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="phG-EH-RjN">
+                                <rect key="frame" x="0.0" y="42.666666666666657" width="200" height="21.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nr-CK-IEi">
+                                <rect key="frame" x="0.0" y="64" width="200" height="36"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="cart" catalog="system"/>
+                                <connections>
+                                    <action selector="btnCarrito:" destination="tdE-pZ-5SK" eventType="touchUpInside" id="nlh-tK-2Vr"/>
+                                    <action selector="btnCarritoCompra:" destination="tdE-pZ-5SK" eventType="touchUpInside" id="ekS-8y-7hv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="ei5-KM-eDi"/>
+                            <constraint firstAttribute="width" constant="200" id="tSs-6F-zmH"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="9Qn-jW-PUJ"/>
+            <constraints>
+                <constraint firstItem="VMW-Lb-MoL" firstAttribute="leading" secondItem="tdE-pZ-5SK" secondAttribute="leading" id="548-mf-6Bl"/>
+                <constraint firstAttribute="trailing" secondItem="veq-1s-IXd" secondAttribute="trailing" id="IOB-48-wco"/>
+                <constraint firstItem="VMW-Lb-MoL" firstAttribute="top" secondItem="tdE-pZ-5SK" secondAttribute="top" constant="150" id="PKj-15-Ay1"/>
+                <constraint firstAttribute="trailing" secondItem="VMW-Lb-MoL" secondAttribute="trailing" id="VFD-MH-pF8"/>
+                <constraint firstItem="veq-1s-IXd" firstAttribute="leading" secondItem="tdE-pZ-5SK" secondAttribute="leading" id="iiZ-SF-mV8"/>
+                <constraint firstAttribute="bottom" secondItem="veq-1s-IXd" secondAttribute="bottom" constant="100" id="k73-y9-1hV"/>
+                <constraint firstItem="veq-1s-IXd" firstAttribute="top" secondItem="tdE-pZ-5SK" secondAttribute="top" id="pCu-9e-o1C"/>
+            </constraints>
+            <connections>
+                <outlet property="btnCarrito" destination="7nr-CK-IEi" id="CK2-2v-z0O"/>
+                <outlet property="imageView" destination="taO-jz-hFb" id="Yyx-9v-isT"/>
+                <outlet property="lblDescripcion" destination="RyT-2h-v47" id="eh0-DP-GUj"/>
+                <outlet property="lblNombre" destination="srE-uM-ZlT" id="3Jo-6g-kff"/>
+                <outlet property="lblPrecio" destination="phG-EH-RjN" id="nUG-Ih-ggi"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="cart" catalog="system" width="128" height="102"/>
+    </resources>
+</document>
