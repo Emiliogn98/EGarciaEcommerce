@@ -76,6 +76,11 @@
 		E3D2A1122A16D50E007BB13F /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */; };
 		E3DA70192A1BFF3F00A6B53E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */; };
 		E3DA701B2A1C00B300A6B53E /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA701A2A1C00B300A6B53E /* RegistroController.swift */; };
+		E3E6AB3A2A213CA9001813D8 /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */; };
+		E3E6AB3C2A2141D7001813D8 /* Venta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB3B2A2141D7001813D8 /* Venta.swift */; };
+		E3E6AB3E2A214329001813D8 /* CarritoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB3D2A214329001813D8 /* CarritoController.swift */; };
+		E3E6AB472A214688001813D8 /* CarritoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB452A214688001813D8 /* CarritoCell.swift */; };
+		E3E6AB482A214688001813D8 /* CarritoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3E6AB462A214688001813D8 /* CarritoCell.xib */; };
 		E3FEE8BA2A0ACB7F00315063 /* Rol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8B92A0ACB7F00315063 /* Rol.swift */; };
 		E3FEE8BC2A0ACC1400315063 /* RolViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8BB2A0ACC1400315063 /* RolViewModel.swift */; };
 		E3FEE8C22A0AE52A00315063 /* FormRolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FEE8C12A0AE52A00315063 /* FormRolController.swift */; };
@@ -147,6 +152,11 @@
 		E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
 		E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E3DA701A2A1C00B300A6B53E /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
+		E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewModel.swift; sourceTree = "<group>"; };
+		E3E6AB3B2A2141D7001813D8 /* Venta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venta.swift; sourceTree = "<group>"; };
+		E3E6AB3D2A214329001813D8 /* CarritoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoController.swift; sourceTree = "<group>"; };
+		E3E6AB452A214688001813D8 /* CarritoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoCell.swift; sourceTree = "<group>"; };
+		E3E6AB462A214688001813D8 /* CarritoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarritoCell.xib; sourceTree = "<group>"; };
 		E3FEE8B92A0ACB7F00315063 /* Rol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rol.swift; sourceTree = "<group>"; };
 		E3FEE8BB2A0ACC1400315063 /* RolViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolViewModel.swift; sourceTree = "<group>"; };
 		E3FEE8C12A0AE52A00315063 /* FormRolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRolController.swift; sourceTree = "<group>"; };
@@ -384,6 +394,7 @@
 		E3B5DC4E2A1FE99A00A4373A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E3E6AB3B2A2141D7001813D8 /* Venta.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -392,6 +403,7 @@
 			isa = PBXGroup;
 			children = (
 				E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */,
+				E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -404,6 +416,7 @@
 				E3B5DC582A1FECEB00A4373A /* DepartamentoController.swift */,
 				E3B5DC6E2A1FF67A00A4373A /* LoginController.swift */,
 				E3B5DC702A1FF6B800A4373A /* RegistroController.swift */,
+				E3E6AB3D2A214329001813D8 /* CarritoController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -411,6 +424,7 @@
 		E3B5DC512A1FE9EF00A4373A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E3E6AB442A214668001813D8 /* Carrito */,
 				E3B5DC5F2A1FEF0300A4373A /* Producto */,
 				E3B5DC5A2A1FED9000A4373A /* Departamento */,
 			);
@@ -460,6 +474,15 @@
 				E3D2A1112A16D50E007BB13F /* AreaViewModel.swift */,
 			);
 			path = Area;
+			sourceTree = "<group>";
+		};
+		E3E6AB442A214668001813D8 /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				E3E6AB452A214688001813D8 /* CarritoCell.swift */,
+				E3E6AB462A214688001813D8 /* CarritoCell.xib */,
+			);
+			path = Carrito;
 			sourceTree = "<group>";
 		};
 		E3FEE8C52A0B077800315063 /* Rol */ = {
@@ -619,6 +642,7 @@
 				E3B5DC3C2A1FE53700A4373A /* Assets.xcassets in Resources */,
 				E3B5DC5E2A1FEDC900A4373A /* AreaDepartamentoCell.xib in Resources */,
 				E3B5DC3A2A1FE53600A4373A /* Main.storyboard in Resources */,
+				E3E6AB482A214688001813D8 /* CarritoCell.xib in Resources */,
 				E3B5DC652A1FEF5C00A4373A /* ProductoCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,15 +745,19 @@
 				E3B5DC4C2A1FE94E00A4373A /* DepartamentoViewModel.swift in Sources */,
 				E3B5DC4B2A1FE94500A4373A /* AreaViewModel.swift in Sources */,
 				E3B5DC5D2A1FEDC900A4373A /* AreaDepartamentoCell.swift in Sources */,
+				E3E6AB3E2A214329001813D8 /* CarritoController.swift in Sources */,
 				E3B5DC4A2A1FE92D00A4373A /* DBManager.swift in Sources */,
 				E3B5DC492A1FE92000A4373A /* Producto.swift in Sources */,
+				E3E6AB3C2A2141D7001813D8 /* Venta.swift in Sources */,
 				E3B5DC6F2A1FF67A00A4373A /* LoginController.swift in Sources */,
 				E3B5DC752A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld in Sources */,
 				E3B5DC482A1FE90F00A4373A /* Area.swift in Sources */,
 				E3B5DC472A1FE8FB00A4373A /* Departamento.swift in Sources */,
 				E3B5DC462A1FE8DD00A4373A /* Result.swift in Sources */,
 				E3B5DC772A200A5600A4373A /* VentaProductoViewModel.swift in Sources */,
+				E3E6AB472A214688001813D8 /* CarritoCell.swift in Sources */,
 				E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */,
+				E3E6AB3A2A213CA9001813D8 /* CarritoViewModel.swift in Sources */,
 				E3B5DC712A1FF6B800A4373A /* RegistroController.swift in Sources */,
 				E3B5DC352A1FE53600A4373A /* SceneDelegate.swift in Sources */,
 			);

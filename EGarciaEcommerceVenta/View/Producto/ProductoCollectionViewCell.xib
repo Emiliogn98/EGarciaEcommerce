@@ -53,10 +53,6 @@
                                 <rect key="frame" x="0.0" y="64" width="200" height="36"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="cart" catalog="system"/>
-                                <connections>
-                                    <action selector="btnCarrito:" destination="tdE-pZ-5SK" eventType="touchUpInside" id="nlh-tK-2Vr"/>
-                                    <action selector="btnCarritoCompra:" destination="tdE-pZ-5SK" eventType="touchUpInside" id="ekS-8y-7hv"/>
-                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -77,7 +73,7 @@
                 <constraint firstItem="veq-1s-IXd" firstAttribute="top" secondItem="tdE-pZ-5SK" secondAttribute="top" id="pCu-9e-o1C"/>
             </constraints>
             <connections>
-                <outlet property="btnCarrito" destination="7nr-CK-IEi" id="CK2-2v-z0O"/>
+                <outlet property="btnAdd" destination="7nr-CK-IEi" id="CK2-2v-z0O"/>
                 <outlet property="imageView" destination="taO-jz-hFb" id="Yyx-9v-isT"/>
                 <outlet property="lblDescripcion" destination="RyT-2h-v47" id="eh0-DP-GUj"/>
                 <outlet property="lblNombre" destination="srE-uM-ZlT" id="3Jo-6g-kff"/>

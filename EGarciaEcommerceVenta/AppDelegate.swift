@@ -12,7 +12,7 @@ import CoreData
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    //referencia
     lazy var persistentContainer: NSPersistentContainer = {
            let container = NSPersistentContainer(name: "EGarciaEcommerce")
            container.loadPersistentStores { description, error in
@@ -23,7 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
            }
            return container
        }()
+    
+//    lazy var context: NSManagedObjectContext = {
+//           return persistentContainer.viewContext
+//       }()
 
+
+       
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()

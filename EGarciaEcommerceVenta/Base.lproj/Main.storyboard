@@ -21,6 +21,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="nz7-z7-M3j" kind="relationship" relationship="viewControllers" id="S6T-2g-Ag2"/>
+                        <segue destination="XbG-DC-a2X" kind="relationship" relationship="viewControllers" id="hFd-b0-8VP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nN6-wC-8fJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -45,10 +46,56 @@
             </objects>
             <point key="canvasLocation" x="656" y="70"/>
         </scene>
+        <!--Carrito-->
+        <scene sceneID="yhd-2X-UW0">
+            <objects>
+                <navigationController id="XbG-DC-a2X" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Carrito" image="cart.fill" catalog="system" id="HkM-Mk-YKn"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="k00-Te-6EZ">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="GBq-WP-g3H" kind="relationship" relationship="rootViewController" id="bZl-EC-0fg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3zq-Cj-6jH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="731" y="-662"/>
+        </scene>
+        <!--Carrito Controller-->
+        <scene sceneID="elJ-fQ-NSH">
+            <objects>
+                <tableViewController id="GBq-WP-g3H" customClass="CarritoController" customModule="EGarciaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Xf2-j5-6dW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="7C4-og-ylS">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7C4-og-ylS" id="diM-bE-abg">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="GBq-WP-g3H" id="pDW-KF-lhY"/>
+                            <outlet property="delegate" destination="GBq-WP-g3H" id="7QT-BE-liV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="p9a-i8-sGo"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yXK-QH-IfM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1604" y="-656"/>
+        </scene>
         <!--Area Controller-->
         <scene sceneID="m8o-Pa-GYJ">
             <objects>
-                <viewController id="gUj-E7-Csu" customClass="AreaController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gUj-E7-Csu" customClass="AreaController" customModule="EGarciaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uhy-gy-xQx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -122,7 +169,7 @@
         <!--Departamento Controller-->
         <scene sceneID="JxP-AL-ns1">
             <objects>
-                <collectionViewController id="btP-Ic-wA9" customClass="DepartamentoController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="btP-Ic-wA9" customClass="DepartamentoController" customModule="EGarciaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Ib4-uj-Dat">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -177,7 +224,7 @@
         <!--Login Controller-->
         <scene sceneID="zP5-jL-fVu">
             <objects>
-                <viewController id="cTR-Dk-YsK" customClass="LoginController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cTR-Dk-YsK" customClass="LoginController" customModule="EGarciaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qoh-ow-rss">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,7 +342,7 @@
         <!--Registro Controller-->
         <scene sceneID="v60-t6-NBT">
             <objects>
-                <viewController id="Sjy-97-6C4" customClass="RegistroController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Sjy-97-6C4" customClass="RegistroController" customModule="EGarciaEcommerceVenta" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TN2-fw-fs4">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -428,6 +475,7 @@
     <resources>
         <image name="3237447" width="512" height="512"/>
         <image name="Login" width="284" height="177"/>
+        <image name="cart.fill" catalog="system" width="128" height="102"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">

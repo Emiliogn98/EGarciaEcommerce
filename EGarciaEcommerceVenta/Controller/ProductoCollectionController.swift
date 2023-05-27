@@ -17,6 +17,8 @@ class ProductoCollectionController: UICollectionViewController {
     var productos : [Producto] = []
     var nombreProducto : String = ""
     var ProductoCollectionViewCell : ProductoCollectionViewCell?
+    var IdProducto : Int = 0
+    let carritoViewModel = CarritoViewModel()
     
     
     override func viewDidLoad() {
@@ -42,9 +44,24 @@ class ProductoCollectionController: UICollectionViewController {
         
         print(nombreProducto)
     }
-    func assigButtonAction(_ sender: UIButton){
-        sender.addTarget(ProductoCollectionViewCell, action: #selector(ProductoCollectionViewCell?.btnCarrito(_:)), for: .touchUpInside)
-    }
+//    func assigButtonAction(_ sender: UIButton){
+//
+//       // IdProducto  = productos[indexPath.row].IdProducto
+//     // productos[indexPath.row].IdProducto = IdProducto
+//        sender.addTarget(ProductoCollectionViewCell, action: #selector(ProductoCollectionViewCell?.btnCarrito(_:)), for: .touchUpInside)
+//
+//    }
+    @objc func AddCarrito(sender : UIButton){
+            let IdProducto = productos[sender.tag].IdProducto!
+            
+            let result = carritoViewModel.Add(IdProducto)
+            if result.Correct! {
+                //Alert
+            }else{
+                //Alert
+            }
+           // carritoViewModel.GetAll()
+        }
     
     func updateUI(){
         var result = ProductoViewModel.GetByDepartamento(IdDepartamento: IdDepartamento )
@@ -85,6 +102,9 @@ class ProductoCollectionController: UICollectionViewController {
             let base64String = productos[indexPath.row].Imagen!
             let dataDecoded : Data = Data(base64Encoded: base64String)!//Proceso inverso de base64 a Data
             cell.imageView.image = UIImage(data: dataDecoded)
+            cell.btnAdd.tag = indexPath.row
+                   cell.btnAdd.addTarget(self, action: #selector(AddCarrito), for: .touchUpInside)
+            
         }
         return cell
     }

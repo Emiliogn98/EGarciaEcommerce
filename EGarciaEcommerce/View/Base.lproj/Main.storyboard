@@ -263,7 +263,7 @@
                 <navigationController title="Departamento" id="zpE-pM-Lso" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Departamentos" image="cart" catalog="system" selectedImage="cart" id="hCT-7t-Xb1"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="z5Y-sc-Qhi">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -283,7 +283,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NCd-HY-2RD">
-                                <rect key="frame" x="40" y="114" width="348" height="803"/>
+                                <rect key="frame" x="40" y="161" width="348" height="771"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lS6-OI-vTG">
                                     <size key="itemSize" width="90" height="90"/>
@@ -303,7 +303,7 @@
                                 </cells>
                             </collectionView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rjO-KS-Lus">
-                                <rect key="frame" x="20" y="72" width="295" height="22"/>
+                                <rect key="frame" x="20" y="119" width="295" height="22"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="295" id="vFH-xa-Sfo"/>
                                 </constraints>
@@ -1132,7 +1132,6 @@
                         <segue destination="kOg-F0-RqA" kind="relationship" relationship="viewControllers" id="PhF-hq-51u"/>
                         <segue destination="dRw-Qp-NBH" kind="relationship" relationship="viewControllers" id="1fE-gQ-sDU"/>
                         <segue destination="f3A-nN-292" kind="relationship" relationship="viewControllers" id="TkI-8q-hgL"/>
-                        <segue destination="zpE-pM-Lso" kind="relationship" relationship="viewControllers" id="lx9-rI-oMJ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1W8-uS-bKx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

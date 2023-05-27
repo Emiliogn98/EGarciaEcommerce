@@ -8,7 +8,8 @@
 import UIKit
 
 class ProductoCollectionViewCell: UICollectionViewCell {
-    
+    var result :Result = Result()
+    var idProducto : Int? = 0
     
     @IBOutlet weak var imageView: UIImageView!
     
@@ -20,7 +21,7 @@ class ProductoCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var lblPrecio: UILabel!
     
-    @IBOutlet weak var btnCarrito: UIButton!
+    @IBOutlet weak var btnAdd: UIButton!
     
     
     
@@ -30,9 +31,17 @@ class ProductoCollectionViewCell: UICollectionViewCell {
     }
     
     
-    @IBAction func btnCarrito(_ sender: UIButton) {
-        
-        
-    }
+    
+    func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            //controlar que hacer antes de ir a la siguiente vista
+            if segue.identifier == "ProductoCarritoSegue" {
+               // let formControl = segue.destination as! CarritoController
+                //formControl.IdProducto = self.IdProducto
+                
+            }
+          
+          
+   
+        }
     
 }
