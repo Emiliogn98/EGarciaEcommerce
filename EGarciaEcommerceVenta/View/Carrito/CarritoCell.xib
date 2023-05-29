@@ -16,31 +16,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="190" height="200"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" id="Ouv-BK-pDe">
-                        <rect key="frame" x="0.0" y="150" width="190" height="50"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5W-Oa-VKL">
-                                <rect key="frame" x="0.0" y="0.0" width="190" height="16.666666666666668"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iws-rT-ELt">
-                                <rect key="frame" x="0.0" y="16.666666666666664" width="190" height="16.666666666666664"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBD-Hu-aln">
-                                <rect key="frame" x="0.0" y="33.333333333333336" width="190" height="16.666666666666664"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="kzA-zi-bYs"/>
-                    </stackView>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="Eda-c9-UDC">
                         <rect key="frame" x="0.0" y="0.0" width="190" height="150"/>
                         <subviews>
@@ -49,24 +24,46 @@
                             </imageView>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="height" constant="150" id="HZD-cV-V2A"/>
-                            <constraint firstAttribute="width" constant="190" id="Oe3-z3-dWd"/>
+                            <constraint firstAttribute="width" constant="190" id="C3t-gw-q15"/>
+                            <constraint firstAttribute="trailing" secondItem="Kw9-Wf-pmB" secondAttribute="trailing" id="RUm-x3-Rhd"/>
+                            <constraint firstItem="Kw9-Wf-pmB" firstAttribute="leading" secondItem="Eda-c9-UDC" secondAttribute="leading" id="b3Y-Pn-lwO"/>
+                            <constraint firstAttribute="height" constant="150" id="kau-uQ-JrE"/>
+                            <constraint firstItem="Kw9-Wf-pmB" firstAttribute="top" secondItem="Eda-c9-UDC" secondAttribute="top" id="lS4-fG-vuE"/>
                         </constraints>
+                    </stackView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" id="Ouv-BK-pDe">
+                        <rect key="frame" x="0.0" y="150" width="190" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nombre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5W-Oa-VKL">
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="cantidad" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iws-rT-ELt">
+                                <rect key="frame" x="0.0" y="25" width="190" height="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kzA-zi-bYs"/>
                     </stackView>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="Eda-c9-UDC" secondAttribute="trailing" id="WFE-k6-xJN"/>
-                    <constraint firstItem="Ouv-BK-pDe" firstAttribute="top" secondItem="Eda-c9-UDC" secondAttribute="bottom" id="YWc-CW-6jH"/>
-                    <constraint firstItem="Eda-c9-UDC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="iLE-l3-0s8"/>
-                    <constraint firstItem="Eda-c9-UDC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="k6S-WJ-xks"/>
-                    <constraint firstItem="Ouv-BK-pDe" firstAttribute="top" secondItem="Eda-c9-UDC" secondAttribute="bottom" id="n4k-Ek-VEB"/>
+                    <constraint firstAttribute="bottom" secondItem="Eda-c9-UDC" secondAttribute="bottom" constant="50" id="GJh-8L-LFh"/>
+                    <constraint firstItem="Ouv-BK-pDe" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="150" id="K3V-PD-06d"/>
+                    <constraint firstItem="Eda-c9-UDC" firstAttribute="trailing" secondItem="Ouv-BK-pDe" secondAttribute="trailing" id="LG3-C9-nsU"/>
+                    <constraint firstItem="Eda-c9-UDC" firstAttribute="leading" secondItem="Ouv-BK-pDe" secondAttribute="leading" id="l9M-ba-WjQ"/>
+                    <constraint firstItem="Eda-c9-UDC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yJq-IQ-XwW"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="imageView" destination="Kw9-Wf-pmB" id="Hyk-D5-JOb"/>
+                <outlet property="imageViewProducto" destination="Kw9-Wf-pmB" id="MxD-Gp-LQk"/>
                 <outlet property="lblCantidad" destination="Iws-rT-ELt" id="vEh-sF-Vbp"/>
-                <outlet property="lblId" destination="wBD-Hu-aln" id="lVe-aN-x2l"/>
                 <outlet property="lblNombre" destination="w5W-Oa-VKL" id="tdn-vX-RRP"/>
             </connections>
             <point key="canvasLocation" x="-82.44274809160305" y="84.507042253521135"/>

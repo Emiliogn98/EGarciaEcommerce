@@ -7,6 +7,7 @@
 
 import UIKit
 
+
 class CarritoController: UITableViewController {
  
     let dbManager = DBManager()
@@ -66,13 +67,26 @@ class CarritoController: UITableViewController {
     let cell = tableView.dequeueReusableCell(withIdentifier: "CarritoCell", for: indexPath) as! CarritoCell?
         
 
-       // cell.imageViewProducto.text = "Nombre: \(productos[indexPath.row]!)"
+     
         cell!.lblCantidad.text = "Cantidad: \(productos[indexPath.row].Cantidad!)"
-        cell!.lblNombre.text = "Nombre: \(productos[indexPath.row].producto?.Nombre!)"
-        //cell!.imageViewProducto.image = productos[indexPath.row].producto?.Imagen!
+        cell!.lblNombre.text = "Nombre: \(productos[indexPath.row].producto!.Nombre!)"
+        if productos[indexPath.row].producto?.Imagen == "" || productos[indexPath.row].producto?.Imagen == nil{
+            cell?.imageViewProducto.image = UIImage(named: "AppIcon")
+        }else{
+            let base64String = productos[indexPath.row].producto?.Imagen!
+            let dataDecoded : Data = Data(base64Encoded: base64String!)!//Proceso inverso de base64 a Data
+            cell?.imageViewProducto.image = UIImage(data: dataDecoded)
+        }
+  
         return cell!
     }
 
    
 
 }
+
+// MARK: swipe cell delegat
+
+//extension CarritoController : SwipeTableViewCellDelegate {
+//
+//}
