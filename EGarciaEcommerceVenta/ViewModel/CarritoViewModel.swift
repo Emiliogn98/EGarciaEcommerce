@@ -67,7 +67,7 @@ class CarritoViewModel{
         
  
         let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
-        response.predicate = NSPredicate(format: "idProducto =%", "\(IdProducto)")
+        response.predicate = NSPredicate(format: "idProducto = \(IdProducto)", IdProducto)
       
         do{
             let resultFetch = try context.fetch(response) as! [NSManagedObject]
@@ -90,6 +90,12 @@ class CarritoViewModel{
         let context = appDelegate.persistentContainer.viewContext
         
         let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
+        
+        //let predicate = NSPredicate(format: "idProducto = %@", String(IdAlumno))
+               
+               let predicate = NSPredicate(format: "idProducto = %i", IdProducto)
+               
+               response.predicate = predicate
         
         do{
             try context.save()
@@ -144,5 +150,39 @@ class CarritoViewModel{
         }
         
         return result
+    }
+    
+    func UpdateCantidad(_ IdProducto : Int, _ cantidad: Int)-> Result{
+        var result = Result()
+        
+        let context = appDelegate.persistentContainer.viewContext
+        
+        let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
+        
+        //let predicate = NSPredicate(format: "idProducto = %@", String(IdAlumno))
+               
+               let predicate = NSPredicate(format: "idProducto = %i AND cantidad = %i" , [IdProducto,cantidad])
+        //let fech
+               
+               response.predicate = predicate
+        
+            
+        
+        do{
+            let resultFetch = try context.fetch(response) as! [NSManagedObject]
+            let producto = resultFetch.first
+            producto!.setValue(IdProducto, forKey: "idProducto")
+            producto!.setValue(cantidad, forKey: "cantidad")
+            try context.save()
+            result.Correct = true
+        }
+        catch let error {
+            result.Correct = false
+            result.ErrorMessage = error.localizedDescription
+            result.Ex = error
+        }
+
+        return result
+        
     }
 }

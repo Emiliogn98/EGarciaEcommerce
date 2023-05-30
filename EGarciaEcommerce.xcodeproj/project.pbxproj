@@ -8,10 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3E60609998DFD33D3F463463 /* Pods_EGarciaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021AFB6C2A04FA5F1D6A81F4 /* Pods_EGarciaEcommerce.framework */; };
+		604687F948910ECCF6FEB642 /* Pods_EGarciaEcommerceVenta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCDC64F66EAF3871959D3F1 /* Pods_EGarciaEcommerceVenta.framework */; };
+		A9845753861102C8AEDD0E32 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		E30620392A018C61005D4246 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30620382A018C61005D4246 /* Result.swift */; };
 		E31117CD2A02E80800FA2013 /* GetAllUsuarioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31117CC2A02E80800FA2013 /* GetAllUsuarioController.swift */; };
 		E31117D02A02ED5400FA2013 /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31117CE2A02ED5400FA2013 /* UsuarioCell.swift */; };
 		E31117D12A02ED5400FA2013 /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31117CF2A02ED5400FA2013 /* UsuarioCell.xib */; };
+		E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313AB2C2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift */; };
+		E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */; };
+		E313AB342A2578C1000C5E5D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30620382A018C61005D4246 /* Result.swift */; };
+		E313AB352A257984000C5E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
+		E313AB372A2579A6000C5E5D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB362A2579A6000C5E5D /* FirebaseAuth */; };
+		E313AB392A2579AF000C5E5D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB382A2579AF000C5E5D /* FirebaseStorage */; };
+		E313AB3B2A2579C6000C5E5D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB3A2A2579C6000C5E5D /* FirebaseCrashlytics */; };
+		E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
+		E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
+		E313AB3E2A257A19000C5E5D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
 		E32A65152A0DB5780002E365 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A65142A0DB5780002E365 /* iOSDropDown.framework */; };
 		E32B57BE29FC541700A1EA76 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BF29FC54FA00A1EA76 /* Usuario.swift */; };
@@ -23,7 +35,6 @@
 		E33B71EB2A140F7900C1CB6D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
 		E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
 		E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
-		E368170A2A250A18009E2AE9 /* Pods_EGarciaEcommerce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36817092A250A18009E2AE9 /* Pods_EGarciaEcommerce.framework */; };
 		E36ABC2A2A1D465100CE6CCE /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */; };
 		E36ABC2C2A1D467900CE6CCE /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC2B2A1D467900CE6CCE /* AreaController.swift */; };
 		E36ABC2E2A1D46AF00CE6CCE /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */; };
@@ -90,13 +101,28 @@
 		E3FEE8CD2A0B086800315063 /* RolCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3FEE8CB2A0B086800315063 /* RolCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E313AB2E2A257784000C5E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A135CC29FAFD6D006C0CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B5DC2F2A1FE53600A4373A;
+			remoteInfo = EGarciaEcommerceVenta;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		021AFB6C2A04FA5F1D6A81F4 /* Pods_EGarciaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGarciaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1179D167137C70CB032FCF0B /* Pods-EGarciaEcommerceVenta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGarciaEcommerceVenta.release.xcconfig"; path = "Target Support Files/Pods-EGarciaEcommerceVenta/Pods-EGarciaEcommerceVenta.release.xcconfig"; sourceTree = "<group>"; };
 		8A28EC3658DF939E3E0767A5 /* Pods-EGarciaEcommerce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGarciaEcommerce.release.xcconfig"; path = "Target Support Files/Pods-EGarciaEcommerce/Pods-EGarciaEcommerce.release.xcconfig"; sourceTree = "<group>"; };
+		8CCDC64F66EAF3871959D3F1 /* Pods_EGarciaEcommerceVenta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EGarciaEcommerceVenta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C34FED1516F1430EF1DD3 /* Pods-EGarciaEcommerceVenta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGarciaEcommerceVenta.debug.xcconfig"; path = "Target Support Files/Pods-EGarciaEcommerceVenta/Pods-EGarciaEcommerceVenta.debug.xcconfig"; sourceTree = "<group>"; };
 		E30620382A018C61005D4246 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E31117CC2A02E80800FA2013 /* GetAllUsuarioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllUsuarioController.swift; sourceTree = "<group>"; };
 		E31117CE2A02ED5400FA2013 /* UsuarioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioCell.swift; sourceTree = "<group>"; };
 		E31117CF2A02ED5400FA2013 /* UsuarioCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsuarioCell.xib; sourceTree = "<group>"; };
+		E313AB2A2A257784000C5E5D /* EGarciaEcommerceVentaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGarciaEcommerceVentaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E313AB2C2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGarciaEcommerceVentaTests.swift; sourceTree = "<group>"; };
 		E32A65102A0DB50D0002E365 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32A65142A0DB5780002E365 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32B57BD29FC541700A1EA76 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
@@ -111,8 +137,6 @@
 		E33B71EC2A140F8E00C1CB6D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		E33B71EE2A140F9B00C1CB6D /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		E36817052A250809009E2AE9 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36817072A250859009E2AE9 /* Pods_EGarciaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EGarciaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36817092A250A18009E2AE9 /* Pods_EGarciaEcommerce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EGarciaEcommerce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
 		E36ABC2B2A1D467900CE6CCE /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
 		E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
@@ -171,6 +195,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E313AB272A257784000C5E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E313AB3B2A2579C6000C5E5D /* FirebaseCrashlytics in Frameworks */,
+				E313AB372A2579A6000C5E5D /* FirebaseAuth in Frameworks */,
+				E313AB392A2579AF000C5E5D /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3A135D129FAFD6D006C0CAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -180,6 +214,7 @@
 				E36ABC312A1D487F00CE6CCE /* FirebaseAuth in Frameworks */,
 				E36ABC352A1D487F00CE6CCE /* FirebaseStorage in Frameworks */,
 				3E60609998DFD33D3F463463 /* Pods_EGarciaEcommerce.framework in Frameworks */,
+				A9845753861102C8AEDD0E32 /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,10 +222,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E368170A2A250A18009E2AE9 /* Pods_EGarciaEcommerce.framework in Frameworks */,
 				E3B5DC6D2A1FF54F00A4373A /* FirebaseCrashlytics in Frameworks */,
 				E3B5DC692A1FF4EE00A4373A /* FirebaseAuth in Frameworks */,
 				E3B5DC6B2A1FF4FB00A4373A /* FirebaseStorage in Frameworks */,
+				604687F948910ECCF6FEB642 /* Pods_EGarciaEcommerceVenta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +237,8 @@
 			children = (
 				EAEE88CA2D2999ADEC77EBED /* Pods-EGarciaEcommerce.debug.xcconfig */,
 				8A28EC3658DF939E3E0767A5 /* Pods-EGarciaEcommerce.release.xcconfig */,
+				B96C34FED1516F1430EF1DD3 /* Pods-EGarciaEcommerceVenta.debug.xcconfig */,
+				1179D167137C70CB032FCF0B /* Pods-EGarciaEcommerceVenta.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -209,14 +246,21 @@
 		9A74304952A5662F709C83AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E36817092A250A18009E2AE9 /* Pods_EGarciaEcommerce.framework */,
-				E36817072A250859009E2AE9 /* Pods_EGarciaEcommerce.framework */,
 				E36817052A250809009E2AE9 /* SwipeCellKit.framework */,
 				E32A65142A0DB5780002E365 /* iOSDropDown.framework */,
 				E32A65102A0DB50D0002E365 /* iOSDropDown.framework */,
 				021AFB6C2A04FA5F1D6A81F4 /* Pods_EGarciaEcommerce.framework */,
+				8CCDC64F66EAF3871959D3F1 /* Pods_EGarciaEcommerceVenta.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E313AB2B2A257784000C5E5D /* EGarciaEcommerceVentaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E313AB2C2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift */,
+			);
+			path = EGarciaEcommerceVentaTests;
 			sourceTree = "<group>";
 		};
 		E33B71DB2A140C5600C1CB6D /* Producto */ = {
@@ -347,6 +391,7 @@
 				E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */,
 				E3A135D629FAFD6D006C0CAD /* EGarciaEcommerce */,
 				E3B5DC312A1FE53600A4373A /* EGarciaEcommerceVenta */,
+				E313AB2B2A257784000C5E5D /* EGarciaEcommerceVentaTests */,
 				E3A135D529FAFD6D006C0CAD /* Products */,
 				1A1D959AC57A2772AD1CBB43 /* Pods */,
 				9A74304952A5662F709C83AB /* Frameworks */,
@@ -358,6 +403,7 @@
 			children = (
 				E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */,
 				E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */,
+				E313AB2A2A257784000C5E5D /* EGarciaEcommerceVentaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -539,6 +585,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E313AB292A257784000C5E5D /* EGarciaEcommerceVentaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E313AB322A257784000C5E5D /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVentaTests" */;
+			buildPhases = (
+				E313AB262A257784000C5E5D /* Sources */,
+				E313AB272A257784000C5E5D /* Frameworks */,
+				E313AB282A257784000C5E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E313AB2F2A257784000C5E5D /* PBXTargetDependency */,
+			);
+			name = EGarciaEcommerceVentaTests;
+			packageProductDependencies = (
+				E313AB362A2579A6000C5E5D /* FirebaseAuth */,
+				E313AB382A2579AF000C5E5D /* FirebaseStorage */,
+				E313AB3A2A2579C6000C5E5D /* FirebaseCrashlytics */,
+			);
+			productName = EGarciaEcommerceVentaTests;
+			productReference = E313AB2A2A257784000C5E5D /* EGarciaEcommerceVentaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		E3A135D329FAFD6D006C0CAD /* EGarciaEcommerce */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3A135E829FAFD6E006C0CAD /* Build configuration list for PBXNativeTarget "EGarciaEcommerce" */;
@@ -567,9 +636,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3B5DC432A1FE53700A4373A /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVenta" */;
 			buildPhases = (
+				3F0F4DA0229C75C11F575E73 /* [CP] Check Pods Manifest.lock */,
 				E3B5DC2C2A1FE53600A4373A /* Sources */,
 				E3B5DC2D2A1FE53600A4373A /* Frameworks */,
 				E3B5DC2E2A1FE53600A4373A /* Resources */,
+				5BE5850FCBD6AC8F087378AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -595,6 +666,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					E313AB292A257784000C5E5D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E3B5DC2F2A1FE53600A4373A;
+					};
 					E3A135D329FAFD6D006C0CAD = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -621,11 +696,19 @@
 			targets = (
 				E3A135D329FAFD6D006C0CAD /* EGarciaEcommerce */,
 				E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */,
+				E313AB292A257784000C5E5D /* EGarciaEcommerceVentaTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E313AB282A257784000C5E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3A135D229FAFD6D006C0CAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -680,6 +763,45 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		3F0F4DA0229C75C11F575E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EGarciaEcommerceVenta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE5850FCBD6AC8F087378AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EGarciaEcommerceVenta/Pods-EGarciaEcommerceVenta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EGarciaEcommerceVenta/Pods-EGarciaEcommerceVenta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EGarciaEcommerceVenta/Pods-EGarciaEcommerceVenta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A3ACDC3C8BBDE59418EE5C69 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -700,6 +822,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E313AB262A257784000C5E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E313AB3E2A257A19000C5E5D /* Area.swift in Sources */,
+				E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */,
+				E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */,
+				E313AB352A257984000C5E5D /* AppDelegate.swift in Sources */,
+				E313AB342A2578C1000C5E5D /* Result.swift in Sources */,
+				E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */,
+				E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3A135D029FAFD6D006C0CAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -773,6 +909,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E313AB2F2A257784000C5E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */;
+			targetProxy = E313AB2E2A257784000C5E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		E3A135DD29FAFD6D006C0CAD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -809,6 +953,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		E313AB302A257784000C5E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGarciaEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EGarciaEcommerceVenta";
+			};
+			name = Debug;
+		};
+		E313AB312A257784000C5E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVentaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EGarciaEcommerceVenta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EGarciaEcommerceVenta";
+			};
+			name = Release;
+		};
 		E3A135E629FAFD6E006C0CAD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -985,6 +1165,7 @@
 		};
 		E3B5DC412A1FE53700A4373A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B96C34FED1516F1430EF1DD3 /* Pods-EGarciaEcommerceVenta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1014,6 +1195,7 @@
 		};
 		E3B5DC422A1FE53700A4373A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1179D167137C70CB032FCF0B /* Pods-EGarciaEcommerceVenta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1044,6 +1226,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E313AB322A257784000C5E5D /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVentaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E313AB302A257784000C5E5D /* Debug */,
+				E313AB312A257784000C5E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E3A135CF29FAFD6D006C0CAD /* Build configuration list for PBXProject "EGarciaEcommerce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1085,6 +1276,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E313AB362A2579A6000C5E5D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E313AB382A2579AF000C5E5D /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E313AB3A2A2579C6000C5E5D /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
 		E36ABC302A1D487F00CE6CCE /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E36ABC2F2A1D487F00CE6CCE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;

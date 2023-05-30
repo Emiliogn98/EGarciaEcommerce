@@ -12,3 +12,17 @@ target 'EGarciaEcommerce' do
    pod 'IQKeyboardManagerSwift'
 
 end
+
+target 'EGarciaEcommerceVenta' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for EGarciaEcommerce
+
+   pod 'SwipeCellKit'
+   pod 'iOSDropDown'
+   pod 'IQKeyboardManagerSwift'
+
+end
+
+

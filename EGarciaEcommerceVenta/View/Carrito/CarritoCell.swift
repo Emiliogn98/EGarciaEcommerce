@@ -6,9 +6,9 @@
 //
 
 import UIKit
-//import SwipeCellKit
+import SwipeCellKit
 
-class CarritoCell: UITableViewCell {
+class CarritoCell: SwipeTableViewCell {
 
     @IBOutlet weak var lblId: UILabel!
     
@@ -17,6 +17,11 @@ class CarritoCell: UITableViewCell {
     @IBOutlet weak var imageViewProducto: UIImageView!
     
     @IBOutlet weak var lblCantidad: UILabel!
+    
+    @IBOutlet weak var steppRow: UIStepper!
+    
+    
+    @IBOutlet weak var lblSubTotal: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
