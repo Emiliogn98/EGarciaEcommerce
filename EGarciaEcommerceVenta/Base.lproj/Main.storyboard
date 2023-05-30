@@ -293,7 +293,7 @@
                                         <buttonConfiguration key="configuration" style="plain" title="Registrarse"/>
                                         <connections>
                                             <action selector="btnRegistrar:" destination="cTR-Dk-YsK" eventType="touchUpInside" id="zpN-Lo-rwf"/>
-                                            <segue destination="Sjy-97-6C4" kind="show" id="o4d-wo-Bkz"/>
+                                            <segue destination="Sjy-97-6C4" kind="show" identifier="Registrar" id="o4d-wo-Bkz"/>
                                         </connections>
                                     </button>
                                 </subviews>

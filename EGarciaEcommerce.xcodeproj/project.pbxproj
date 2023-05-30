@@ -17,13 +17,16 @@
 		E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313AB2C2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift */; };
 		E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */; };
 		E313AB342A2578C1000C5E5D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30620382A018C61005D4246 /* Result.swift */; };
-		E313AB352A257984000C5E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
 		E313AB372A2579A6000C5E5D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB362A2579A6000C5E5D /* FirebaseAuth */; };
 		E313AB392A2579AF000C5E5D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB382A2579AF000C5E5D /* FirebaseStorage */; };
 		E313AB3B2A2579C6000C5E5D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB3A2A2579C6000C5E5D /* FirebaseCrashlytics */; };
 		E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
 		E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
 		E313AB3E2A257A19000C5E5D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
+		E313AB3F2A257A5B000C5E5D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
+		E313AB402A257A7B000C5E5D /* Venta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB3B2A2141D7001813D8 /* Venta.swift */; };
+		E313AB412A257A95000C5E5D /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */; };
+		E313AB422A257AAE000C5E5D /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32A65152A0DB5780002E365 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A65142A0DB5780002E365 /* iOSDropDown.framework */; };
 		E32B57BE29FC541700A1EA76 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BF29FC54FA00A1EA76 /* Usuario.swift */; };
@@ -53,6 +56,7 @@
 		E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135DD29FAFD6D006C0CAD /* Main.storyboard */; };
 		E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E029FAFD6E006C0CAD /* Assets.xcassets */; };
 		E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E229FAFD6E006C0CAD /* LaunchScreen.storyboard */; };
+		E3AF22AF2A2661DE002BF4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
 		E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
 		E3B5DC352A1FE53600A4373A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */; };
 		E3B5DC3A2A1FE53600A4373A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC382A1FE53600A4373A /* Main.storyboard */; };
@@ -826,10 +830,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AF22AF2A2661DE002BF4AE /* AppDelegate.swift in Sources */,
+				E313AB422A257AAE000C5E5D /* DBManager.swift in Sources */,
+				E313AB412A257A95000C5E5D /* ProductoViewModel.swift in Sources */,
+				E313AB402A257A7B000C5E5D /* Venta.swift in Sources */,
+				E313AB3F2A257A5B000C5E5D /* Proveedor.swift in Sources */,
 				E313AB3E2A257A19000C5E5D /* Area.swift in Sources */,
 				E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */,
 				E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */,
-				E313AB352A257984000C5E5D /* AppDelegate.swift in Sources */,
 				E313AB342A2578C1000C5E5D /* Result.swift in Sources */,
 				E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */,
 				E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */,

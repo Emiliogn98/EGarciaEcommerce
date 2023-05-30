@@ -154,25 +154,27 @@ class CarritoViewModel{
     
     func UpdateCantidad(_ IdProducto : Int, _ cantidad: Int)-> Result{
         var result = Result()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         
         let context = appDelegate.persistentContainer.viewContext
         
         let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
         
-        //let predicate = NSPredicate(format: "idProducto = %@", String(IdAlumno))
                
-               let predicate = NSPredicate(format: "idProducto = %i AND cantidad = %i" , [IdProducto,cantidad])
-        //let fech
+     response.predicate = NSPredicate(format: "idProducto = %@" , String(IdProducto))
+  //  let predicate = NSPredicate(format: "idProducto = %i" , String(IdProducto))
+        
                
-               response.predicate = predicate
+        // response.predicate = predicate
         
             
         
         do{
-            let resultFetch = try context.fetch(response) as! [NSManagedObject]
-            let producto = resultFetch.first
-            producto!.setValue(IdProducto, forKey: "idProducto")
-            producto!.setValue(cantidad, forKey: "cantidad")
+            let resultFetch = try context.fetch(response)
+            
+            let producto = resultFetch[0] as! NSManagedObject
+           // producto.setValue(IdProducto, forKey: "idProducto")
+            producto.setValue(cantidad, forKey: "cantidad")
             try context.save()
             result.Correct = true
         }

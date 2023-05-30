@@ -57,8 +57,19 @@ class ProductoCollectionController: UICollectionViewController {
             let result = carritoViewModel.Add(IdProducto)
             if result.Correct! {
                 //Alert
+                let alert = UIAlertController(title: "Mensaje", message: "Se añadio correctamente al carrito de compras", preferredStyle: .alert)
+                let action = UIAlertAction(title: "Aceptar", style: .default)
+                alert.addAction(action)
+                
+                    present(alert, animated: true)
             }else{
                 //Alert
+                //Alert
+                let alert = UIAlertController(title: "Mensaje", message: "Ocurrio un error al añadir", preferredStyle: .alert)
+                let action = UIAlertAction(title: "Aceptar", style: .default)
+                alert.addAction(action)
+                
+                    present(alert, animated: true)
             }
            // carritoViewModel.GetAll()
         }

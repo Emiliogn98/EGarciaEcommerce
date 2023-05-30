@@ -51,19 +51,28 @@ class CarritoController: UITableViewController {
     }
     @objc func UpdateCantidad(sender : UIStepper){
         let IdProducto = productos[sender.tag].producto?.IdProducto!
+        print(sender.tag)
+        print(sender.value)
         
-        //sender.value >= 0
-       // let result = carritoViewModel.UpdateCantidad(self.productos[indexPath.row].producto!.IdProducto!, self.productos[indexPath.row].Cantidad!)
-        let result = self.carritoViewModel.UpdateCantidad(productos[sender.tag].producto!.IdProducto!, self.productos[sender.tag].Cantidad!)
-        
-        
-        
+        if sender.value >= 1{
+
+            let result = self.carritoViewModel.UpdateCantidad(productos[sender.tag].producto!.IdProducto!, Int(sender.value))
+          //  let result = self.carritoViewModel.UpdateCantidad(productos[sender.tag].producto!.IdProducto!, productos[Int(sender.value)].Cantidad!)
             if result.Correct! {
                 //Alert
+                updateUI()
+                print("Se actualizo la cantidad")
             }else{
                 //Alert
+                print("ocurrio un error al actualizar")
             }
-           // carritoViewModel.GetAll()
+          
+        }
+        if sender.value == 0 {
+            
+        }
+       
+        
         }
 
     
@@ -87,6 +96,7 @@ class CarritoController: UITableViewController {
         cell!.delegate = self
         
         cell!.lblCantidad.text = "Cantidad: \(productos[indexPath.row].Cantidad!)"
+        
         cell!.lblNombre.text = "Nombre: \(productos[indexPath.row].producto!.Nombre!)"
         if productos[indexPath.row].producto?.Imagen == "" || productos[indexPath.row].producto?.Imagen == nil{
             cell?.imageViewProducto.image = UIImage(named: "AppIcon")
@@ -95,16 +105,16 @@ class CarritoController: UITableViewController {
             let dataDecoded : Data = Data(base64Encoded: base64String!)!//Proceso inverso de base64 a Data
             cell?.imageViewProducto.image = UIImage(data: dataDecoded)
         }
+        cell?.steppRow.value = Double(productos[indexPath.row].Cantidad!)
         cell?.steppRow.tag = indexPath.row
         cell?.steppRow.addTarget(self, action: #selector(UpdateCantidad), for: .touchUpInside)
-//         cell?.steppRow.value = 1
-//         cell?.steppRow.value >= 1
+
+                
+       // cell?.lblSubTotal.text = "Subtotal: \(String(Double((productos[indexPath.row].producto?.PrecioUnitario!)!) * Double(productos[indexPath.row].Cantidad!)))"
+        cell?.lblSubTotal.text = "Subtotal: \(Double(productos[indexPath.row].producto!.PrecioUnitario!) * Double(productos[indexPath.row].Cantidad!))"
         
-        
-        cell?.lblSubTotal.text = "Subtotal: \(String(subTotal))"
-        
-        subTotal = Double((productos[indexPath.row].producto?.PrecioUnitario!)!) * Double(productos[indexPath.row].Cantidad!)
-        print(subTotal)
+       // subTotal = Double((productos[indexPath.row].producto?.PrecioUnitario!)!) * Double(productos[indexPath.row].Cantidad!)
+        //print(subTotal)
         return cell!
     }
 
