@@ -6,7 +6,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -256,152 +255,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vZ-hA-gIz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="652" y="-156"/>
-        </scene>
-        <!--Departamento-->
-        <scene sceneID="22r-04-vjk">
-            <objects>
-                <navigationController title="Departamento" id="zpE-pM-Lso" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Departamentos" image="cart" catalog="system" selectedImage="cart" id="hCT-7t-Xb1"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="z5Y-sc-Qhi">
-                        <rect key="frame" x="0.0" y="47" width="428" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="cAG-Xb-CgY" kind="relationship" relationship="rootViewController" id="aEB-OT-A6b"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="NjA-uz-Fr0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-387" y="1293"/>
-        </scene>
-        <!--Area Controller-->
-        <scene sceneID="U6a-go-LYl">
-            <objects>
-                <viewController id="cAG-Xb-CgY" customClass="AreaController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fPR-rc-X6c">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="NCd-HY-2RD">
-                                <rect key="frame" x="40" y="161" width="348" height="771"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lS6-OI-vTG">
-                                    <size key="itemSize" width="90" height="90"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dwS-jP-kxj">
-                                        <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gmV-Fg-hSw">
-                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </collectionViewCellContentView>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Buscar" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rjO-KS-Lus">
-                                <rect key="frame" x="20" y="119" width="295" height="22"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="295" id="vFH-xa-Sfo"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OkI-g6-ATd">
-                                <rect key="frame" x="323" y="71" width="75" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" image="magnifyingglass" catalog="system"/>
-                                <connections>
-                                    <action selector="btnBuscar:" destination="cAG-Xb-CgY" eventType="touchUpInside" id="cwy-8E-47p"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="sQL-WP-EeQ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="OkI-g6-ATd" firstAttribute="leading" secondItem="rjO-KS-Lus" secondAttribute="trailing" constant="8" id="KFh-BT-2O2"/>
-                            <constraint firstItem="NCd-HY-2RD" firstAttribute="top" secondItem="sQL-WP-EeQ" secondAttribute="top" constant="70" id="MLl-HK-yh4"/>
-                            <constraint firstItem="rjO-KS-Lus" firstAttribute="leading" secondItem="fPR-rc-X6c" secondAttribute="leadingMargin" id="Ocp-RC-JGM"/>
-                            <constraint firstItem="rjO-KS-Lus" firstAttribute="centerY" secondItem="OkI-g6-ATd" secondAttribute="centerY" id="QGX-N5-gqZ"/>
-                            <constraint firstItem="NCd-HY-2RD" firstAttribute="top" secondItem="rjO-KS-Lus" secondAttribute="bottom" constant="20" id="UWi-ru-ooB"/>
-                            <constraint firstItem="rjO-KS-Lus" firstAttribute="bottom" secondItem="OkI-g6-ATd" secondAttribute="bottom" id="cgG-n9-p8S"/>
-                            <constraint firstItem="NCd-HY-2RD" firstAttribute="leading" secondItem="sQL-WP-EeQ" secondAttribute="leading" constant="40" id="fwc-ta-ZLq"/>
-                            <constraint firstItem="rjO-KS-Lus" firstAttribute="top" secondItem="sQL-WP-EeQ" secondAttribute="top" constant="28" id="kAF-0C-IqL"/>
-                            <constraint firstItem="NCd-HY-2RD" firstAttribute="bottom" secondItem="sQL-WP-EeQ" secondAttribute="bottom" constant="40" id="sb4-Tq-Zrx"/>
-                            <constraint firstItem="NCd-HY-2RD" firstAttribute="trailing" secondItem="sQL-WP-EeQ" secondAttribute="trailing" constant="-40" id="zAP-m8-Tuv"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="UlU-4a-zxu">
-                        <nil key="title"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="collectionView" destination="NCd-HY-2RD" id="ZHZ-T5-aii"/>
-                        <outlet property="txtBuscar" destination="rjO-KS-Lus" id="n4M-7L-JgQ"/>
-                        <segue destination="qj9-60-c05" kind="show" identifier="AreaDepartamentoSegues" id="aP0-tL-YeF"/>
-                        <segue destination="YKf-AS-ppt" kind="show" identifier="AreaProductoSegue" id="pij-hm-TC0"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mXX-QW-Vgw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="572" y="1304"/>
-        </scene>
-        <!--Departamento Controller-->
-        <scene sceneID="bp4-c5-j2j">
-            <objects>
-                <collectionViewController id="qj9-60-c05" customClass="DepartamentoController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GZu-F1-1iK">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Tvu-Eu-SL1">
-                            <size key="itemSize" width="128" height="128"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells/>
-                        <connections>
-                            <outlet property="dataSource" destination="qj9-60-c05" id="xvR-cU-PJG"/>
-                            <outlet property="delegate" destination="qj9-60-c05" id="aCR-NV-dQN"/>
-                        </connections>
-                    </collectionView>
-                    <navigationItem key="navigationItem" id="UYv-pd-5wL"/>
-                    <connections>
-                        <segue destination="YKf-AS-ppt" kind="show" identifier="DepartamentoProductoSegue" id="ej5-po-1eE"/>
-                    </connections>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xgu-46-iAQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1391" y="1657"/>
-        </scene>
-        <!--Producto Collection Controller-->
-        <scene sceneID="wBy-GR-hjD">
-            <objects>
-                <collectionViewController id="YKf-AS-ppt" customClass="ProductoCollectionController" customModule="EGarciaEcommerce" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="wYH-9C-iQe">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pxg-gv-Jkr">
-                            <size key="itemSize" width="132" height="128"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells/>
-                        <connections>
-                            <outlet property="dataSource" destination="YKf-AS-ppt" id="rSg-UK-R2w"/>
-                            <outlet property="delegate" destination="YKf-AS-ppt" id="SCI-IT-LLQ"/>
-                        </connections>
-                    </collectionView>
-                    <navigationItem key="navigationItem" id="IWP-3L-Lqd"/>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aQw-VT-xCO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2167" y="1280"/>
         </scene>
         <!--Producto-->
         <scene sceneID="OOv-DE-gV3">
@@ -1158,14 +1011,11 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="EYp-4j-Nr2"/>
-        <segue reference="ej5-po-1eE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3237447" width="512" height="512"/>
         <image name="Login" width="284" height="177"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
-        <image name="cart" catalog="system" width="128" height="102"/>
-        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <image name="person" catalog="system" width="128" height="121"/>
         <systemColor name="opaqueSeparatorColor">

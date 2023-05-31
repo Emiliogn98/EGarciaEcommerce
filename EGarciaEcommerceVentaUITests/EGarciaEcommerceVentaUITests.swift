@@ -50,6 +50,12 @@ final class EGarciaEcommerceVentaUITests: XCTestCase {
         let button = app.buttons["Ingresar"]
         XCTAssertTrue(button.exists)
        // button.alerts["alert"].tap()
+        
+        let alertButton = button.alerts["alert"]
+            if alertButton.exists {
+                alertButton.tap()
+                
+            }
         button.tap() // un clic al boton ingresar
         let buttonRegistrar = app.buttons["Registrarse"]
         XCTAssertTrue(buttonRegistrar.exists)

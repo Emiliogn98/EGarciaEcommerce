@@ -29,9 +29,6 @@
 		E33B71EB2A140F7900C1CB6D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
 		E33B71ED2A140F8E00C1CB6D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
 		E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
-		E36ABC2A2A1D465100CE6CCE /* DepartamentoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */; };
-		E36ABC2C2A1D467900CE6CCE /* AreaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC2B2A1D467900CE6CCE /* AreaController.swift */; };
-		E36ABC2E2A1D46AF00CE6CCE /* ProductoCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */; };
 		E36ABC312A1D487F00CE6CCE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC302A1D487F00CE6CCE /* FirebaseAuth */; };
 		E36ABC332A1D487F00CE6CCE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC322A1D487F00CE6CCE /* FirebaseCrashlytics */; };
 		E36ABC352A1D487F00CE6CCE /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E36ABC342A1D487F00CE6CCE /* FirebaseStorage */; };
@@ -140,9 +137,6 @@
 		E33B71EC2A140F8E00C1CB6D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
 		E33B71EE2A140F9B00C1CB6D /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
 		E36817052A250809009E2AE9 /* SwipeCellKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwipeCellKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartamentoController.swift; sourceTree = "<group>"; };
-		E36ABC2B2A1D467900CE6CCE /* AreaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaController.swift; sourceTree = "<group>"; };
-		E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionController.swift; sourceTree = "<group>"; };
 		E36ABC3F2A1D758F00CE6CCE /* AreaDepartamentoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaDepartamentoCell.swift; sourceTree = "<group>"; };
 		E36ABC402A1D758F00CE6CCE /* AreaDepartamentoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AreaDepartamentoCell.xib; sourceTree = "<group>"; };
 		E37347A52A156542000D4E63 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
@@ -381,7 +375,6 @@
 			isa = PBXGroup;
 			children = (
 				E3CC03B42A1EB6DD00CA9937 /* Login */,
-				E3CC03B32A1EB6C600CA9937 /* Ventas */,
 				E33B71DB2A140C5600C1CB6D /* Producto */,
 				E3FEE8C72A0B07AA00315063 /* Rol */,
 				E3FEE8C62A0B078600315063 /* Usuario */,
@@ -525,16 +518,6 @@
 				E3B5DC632A1FEF5C00A4373A /* ProductoCollectionViewCell.xib */,
 			);
 			path = Producto;
-			sourceTree = "<group>";
-		};
-		E3CC03B32A1EB6C600CA9937 /* Ventas */ = {
-			isa = PBXGroup;
-			children = (
-				E36ABC2B2A1D467900CE6CCE /* AreaController.swift */,
-				E36ABC2D2A1D46AF00CE6CCE /* ProductoCollectionController.swift */,
-				E36ABC292A1D465100CE6CCE /* DepartamentoController.swift */,
-			);
-			path = Ventas;
 			sourceTree = "<group>";
 		};
 		E3CC03B42A1EB6DD00CA9937 /* Login */ = {
@@ -913,10 +896,7 @@
 				E3A135D829FAFD6D006C0CAD /* AppDelegate.swift in Sources */,
 				E382C6662A04371900D22EFA /* UsuarioViewModel.swift in Sources */,
 				E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */,
-				E36ABC2A2A1D465100CE6CCE /* DepartamentoController.swift in Sources */,
 				E3A135DA29FAFD6D006C0CAD /* SceneDelegate.swift in Sources */,
-				E36ABC2E2A1D46AF00CE6CCE /* ProductoCollectionController.swift in Sources */,
-				E36ABC2C2A1D467900CE6CCE /* AreaController.swift in Sources */,
 				E37347AC2A157221000D4E63 /* ProveedorViewModel.swift in Sources */,
 				E33B71EF2A140F9B00C1CB6D /* Area.swift in Sources */,
 				E33B71DF2A140DD600C1CB6D /* FormProductoController.swift in Sources */,
