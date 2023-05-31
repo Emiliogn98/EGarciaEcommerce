@@ -25,12 +25,17 @@ class RegistroController: UIViewController {
     
     @IBOutlet weak var txtValidarContrasenia: UITextField!
     
+    
+    @IBOutlet weak var btnRegistrarOutlet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
     
             @IBAction func btnRegistrar(_ sender: UIButton) {
+               
+                
                 guard txtCorreo.text != "" else{
                            lblCorreo.text = "Campo Requerido"
                            lblCorreo.textColor  = .red
@@ -47,11 +52,12 @@ class RegistroController: UIViewController {
                            lblContrasenia.textColor  = .red
                     txtContrasenia.layer.borderColor = color
                     txtContrasenia.layer.borderWidth = 1.0
+                    
                            return
                        }
                 txtContrasenia.layer.borderColor = color2
                 txtContrasenia.layer.borderWidth = 1.0
-                       lblContrasenia.text = ""
+                lblContrasenia.text = ""
                 guard txtValidarContrasenia.text != "" else{
                            lblValidarContrasenia.text = "Campo Requerido"
                            lblValidarContrasenia.textColor  = .red
@@ -64,12 +70,28 @@ class RegistroController: UIViewController {
                 txtValidarContrasenia.layer.borderColor = color2
                 txtValidarContrasenia.layer.borderWidth = 1.0
                 
+                
                 guard txtContrasenia.text == txtValidarContrasenia.text else{
                     
+                   
+                    lblValidarContrasenia.text = "Las contraseñas no coinciden"
+                    lblValidarContrasenia.textColor  = .red
+                    txtValidarContrasenia.layer.borderColor = color
+                    txtValidarContrasenia.layer.borderWidth = 1.0
+                    lblContrasenia.text = "Las contraseñas no coinciden"
+                    lblContrasenia.textColor  = .red
+                    txtContrasenia.layer.borderColor = color
+                    txtContrasenia.layer.borderWidth = 1.0
                     
                     
                     return
                 }
+                lblValidarContrasenia.text = ""
+                txtValidarContrasenia.layer.borderColor = color2
+                txtValidarContrasenia.layer.borderWidth = 1.0
+                txtContrasenia.layer.borderColor = color2
+                txtContrasenia.layer.borderWidth = 1.0
+                lblContrasenia.text = ""
                        
                 Auth.auth().createUser(withEmail: txtCorreo.text!, password: txtContrasenia.text!) { authResult, error in
                     // ...

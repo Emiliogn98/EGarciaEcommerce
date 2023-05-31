@@ -251,7 +251,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9X-I1-CR6">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="LblCorreo" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H9X-I1-CR6" userLabel="LblCorreo">
                                         <rect key="frame" x="0.0" y="60.333333333333314" width="313" height="50"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
@@ -268,7 +268,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="pass@word1" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cRk-VL-MKP" userLabel="TxtContrasenia">
                                         <rect key="frame" x="0.0" y="136.66666666666669" width="313" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BYW-2c-5WK">
                                         <rect key="frame" x="0.0" y="170.66666666666663" width="313" height="24.666666666666657"/>
@@ -454,6 +454,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="4fr-Y2-VB5"/>
                     <connections>
+                        <outlet property="btnRegistrarOutlet" destination="Lzz-ll-ZFD" id="S02-pd-Dgt"/>
                         <outlet property="lblContrasenia" destination="yuK-vB-0pb" id="yPo-Pj-urS"/>
                         <outlet property="lblCorreo" destination="1eo-aw-SEK" id="Jbx-WB-CaN"/>
                         <outlet property="lblValidarContrasenia" destination="lbw-FW-NO2" id="Wbi-rP-f4i"/>
@@ -470,7 +471,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="b81-Wm-WhK"/>
-        <segue reference="86v-QR-keo"/>
+        <segue reference="lEL-0M-Uin"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="3237447" width="512" height="512"/>

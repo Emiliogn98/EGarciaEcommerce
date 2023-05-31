@@ -7113,8 +7113,8 @@
             filePath = "EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "testExample()"
             landmarkType = "7">
             <Locations>
@@ -7161,8 +7161,8 @@
             filePath = "EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "testExample()"
             landmarkType = "7">
          </BreakpointContent>
@@ -7177,8 +7177,72 @@
             filePath = "EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "690C6C90-9DB7-4BC1-B3CA-D1EE88678966 - 76a786ebbb936a6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVentaUITests.EGarciaEcommerceVentaUITests.testExample() throws -&gt; ()"
+                  moduleName = "EGarciaEcommerceVentaUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1572">
+               </Location>
+               <Location
+                  uuid = "690C6C90-9DB7-4BC1-B3CA-D1EE88678966 - 76a786ebbb936a6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVentaUITests.EGarciaEcommerceVentaUITests.testExample() throws -&gt; ()"
+                  moduleName = "EGarciaEcommerceVentaUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1568">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E536C5DD-42AC-499B-8B61-5987E662DC34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "testExample()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDEB2AC0-37CE-4509-9D7E-7502BA279C4E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVentaUITests/EGarciaEcommerceVentaUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "testExample()"
             landmarkType = "7">
          </BreakpointContent>

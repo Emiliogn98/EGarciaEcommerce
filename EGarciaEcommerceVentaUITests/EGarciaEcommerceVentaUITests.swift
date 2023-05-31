@@ -26,32 +26,35 @@ final class EGarciaEcommerceVentaUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
-      
-        
+        let lblLogin = app.staticTexts["Login"]
+        XCTAssertTrue(lblLogin.exists)
+       // lblLogin.click()
         let txtCorreo = app.textFields["emilio@gmail.com"]
         XCTAssertTrue(txtCorreo.exists) // verifica si existe
         XCTAssertTrue(txtCorreo.isHittable && txtCorreo.isEnabled) // verifica si se puede editar
         txtCorreo.tap()
-        //txtCorreo.typeText("prueba correo") //ingresa texto
-        XCTAssertEqual(txtCorreo.value as? String, "emilio@gmail.com") //verificamos el texto ingresado
+        txtCorreo.typeText("prueba correo") //ingresa texto
+        let lblCorreo = app.staticTexts["lblCorreo"]
+        XCTAssertFalse(lblCorreo.exists) // no existe hasta que no ingresan un correo
         
-//        let txtContrasenia = app.textFields["txtContrasenia"]
-//        XCTAssertTrue(txtContrasenia.exists) // verifica si existe
-//        XCTAssertTrue(txtContrasenia.isHittable && txtCorreo.isEnabled) // verifica si se puede editar
-//        txtContrasenia.tap()
-//        //txtCorreo.typeText("prueba contra") //ingresa texto
-//        XCTAssertEqual(txtContrasenia.value as? String, "pass@word1") //verificamos el texto ingresado
-
-
-       app.staticTexts["lblCorreo"].exists
-       
+        let txtContrasenia = app.textFields["pass@word1"]
+        XCTAssertTrue(txtContrasenia.exists) // verifica si existe
+        XCTAssertTrue(txtContrasenia.isHittable && txtContrasenia.isEnabled) // verifica si se puede editar
+        txtContrasenia.tap()
+        //txtContrasenia.typeText("prueba contra") //ingresa texto
+        XCTAssertEqual(txtContrasenia.value as? String, "pass@word1") //verificamos el texto ingresado
         
-        app.staticTexts["lblContrasenia"].exists
+        let lblContrasenia = app.staticTexts["lblContrasenia"]
+        XCTAssertFalse(lblContrasenia.exists) // no va existir hasta que no ingresen una contraseña
         
         let button = app.buttons["Ingresar"]
-        button.tap()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertTrue(button.exists)
+       // button.alerts["alert"].tap()
+        button.tap() // un clic al boton ingresar
+        let buttonRegistrar = app.buttons["Registrarse"]
+        XCTAssertTrue(buttonRegistrar.exists)
+        buttonRegistrar.doubleTap() //doble clic al boton regi
+   
     }
 
     func testLaunchPerformance() throws {
