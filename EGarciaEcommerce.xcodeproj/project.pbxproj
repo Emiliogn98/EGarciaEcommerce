@@ -15,18 +15,9 @@
 		E31117D02A02ED5400FA2013 /* UsuarioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31117CE2A02ED5400FA2013 /* UsuarioCell.swift */; };
 		E31117D12A02ED5400FA2013 /* UsuarioCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E31117CF2A02ED5400FA2013 /* UsuarioCell.xib */; };
 		E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313AB2C2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift */; };
-		E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */; };
-		E313AB342A2578C1000C5E5D /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30620382A018C61005D4246 /* Result.swift */; };
 		E313AB372A2579A6000C5E5D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB362A2579A6000C5E5D /* FirebaseAuth */; };
 		E313AB392A2579AF000C5E5D /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB382A2579AF000C5E5D /* FirebaseStorage */; };
 		E313AB3B2A2579C6000C5E5D /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E313AB3A2A2579C6000C5E5D /* FirebaseCrashlytics */; };
-		E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37347A52A156542000D4E63 /* Producto.swift */; };
-		E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EC2A140F8E00C1CB6D /* Departamento.swift */; };
-		E313AB3E2A257A19000C5E5D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EE2A140F9B00C1CB6D /* Area.swift */; };
-		E313AB3F2A257A5B000C5E5D /* Proveedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71EA2A140F7900C1CB6D /* Proveedor.swift */; };
-		E313AB402A257A7B000C5E5D /* Venta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E6AB3B2A2141D7001813D8 /* Venta.swift */; };
-		E313AB412A257A95000C5E5D /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */; };
-		E313AB422A257AAE000C5E5D /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32A65152A0DB5780002E365 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A65142A0DB5780002E365 /* iOSDropDown.framework */; };
 		E32B57BE29FC541700A1EA76 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BF29FC54FA00A1EA76 /* Usuario.swift */; };
@@ -56,7 +47,8 @@
 		E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135DD29FAFD6D006C0CAD /* Main.storyboard */; };
 		E3A135E129FAFD6E006C0CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E029FAFD6E006C0CAD /* Assets.xcassets */; };
 		E3A135E429FAFD6E006C0CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A135E229FAFD6E006C0CAD /* LaunchScreen.storyboard */; };
-		E3AF22AF2A2661DE002BF4AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
+		E3AF22B72A269DED002BF4AE /* EGarciaEcommerceVentaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF22B62A269DED002BF4AE /* EGarciaEcommerceVentaUITests.swift */; };
+		E3AF22B92A269DED002BF4AE /* EGarciaEcommerceVentaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF22B82A269DED002BF4AE /* EGarciaEcommerceVentaUITestsLaunchTests.swift */; };
 		E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC322A1FE53600A4373A /* AppDelegate.swift */; };
 		E3B5DC352A1FE53600A4373A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */; };
 		E3B5DC3A2A1FE53600A4373A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3B5DC382A1FE53600A4373A /* Main.storyboard */; };
@@ -113,6 +105,13 @@
 			remoteGlobalIDString = E3B5DC2F2A1FE53600A4373A;
 			remoteInfo = EGarciaEcommerceVenta;
 		};
+		E3AF22BA2A269DED002BF4AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3A135CC29FAFD6D006C0CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3B5DC2F2A1FE53600A4373A;
+			remoteInfo = EGarciaEcommerceVenta;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -158,6 +157,9 @@
 		E3A135E029FAFD6E006C0CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A135E329FAFD6E006C0CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A135E529FAFD6E006C0CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3AF22B42A269DED002BF4AE /* EGarciaEcommerceVentaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGarciaEcommerceVentaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3AF22B62A269DED002BF4AE /* EGarciaEcommerceVentaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGarciaEcommerceVentaUITests.swift; sourceTree = "<group>"; };
+		E3AF22B82A269DED002BF4AE /* EGarciaEcommerceVentaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EGarciaEcommerceVentaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGarciaEcommerceVenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3B5DC322A1FE53600A4373A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3B5DC342A1FE53600A4373A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,6 +221,13 @@
 				E36ABC352A1D487F00CE6CCE /* FirebaseStorage in Frameworks */,
 				3E60609998DFD33D3F463463 /* Pods_EGarciaEcommerce.framework in Frameworks */,
 				A9845753861102C8AEDD0E32 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF22B12A269DED002BF4AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +405,7 @@
 				E3A135D629FAFD6D006C0CAD /* EGarciaEcommerce */,
 				E3B5DC312A1FE53600A4373A /* EGarciaEcommerceVenta */,
 				E313AB2B2A257784000C5E5D /* EGarciaEcommerceVentaTests */,
+				E3AF22B52A269DED002BF4AE /* EGarciaEcommerceVentaUITests */,
 				E3A135D529FAFD6D006C0CAD /* Products */,
 				1A1D959AC57A2772AD1CBB43 /* Pods */,
 				9A74304952A5662F709C83AB /* Frameworks */,
@@ -408,6 +418,7 @@
 				E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */,
 				E3B5DC302A1FE53600A4373A /* EGarciaEcommerceVenta.app */,
 				E313AB2A2A257784000C5E5D /* EGarciaEcommerceVentaTests.xctest */,
+				E3AF22B42A269DED002BF4AE /* EGarciaEcommerceVentaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -428,6 +439,15 @@
 				E32B57C129FC5DB200A1EA76 /* EGarciaBD.db */,
 			);
 			path = EGarciaEcommerce;
+			sourceTree = "<group>";
+		};
+		E3AF22B52A269DED002BF4AE /* EGarciaEcommerceVentaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF22B62A269DED002BF4AE /* EGarciaEcommerceVentaUITests.swift */,
+				E3AF22B82A269DED002BF4AE /* EGarciaEcommerceVentaUITestsLaunchTests.swift */,
+			);
+			path = EGarciaEcommerceVentaUITests;
 			sourceTree = "<group>";
 		};
 		E3B5DC312A1FE53600A4373A /* EGarciaEcommerceVenta */ = {
@@ -636,6 +656,24 @@
 			productReference = E3A135D429FAFD6D006C0CAD /* EGarciaEcommerce.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3AF22B32A269DED002BF4AE /* EGarciaEcommerceVentaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3AF22BC2A269DED002BF4AE /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVentaUITests" */;
+			buildPhases = (
+				E3AF22B02A269DED002BF4AE /* Sources */,
+				E3AF22B12A269DED002BF4AE /* Frameworks */,
+				E3AF22B22A269DED002BF4AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3AF22BB2A269DED002BF4AE /* PBXTargetDependency */,
+			);
+			name = EGarciaEcommerceVentaUITests;
+			productName = EGarciaEcommerceVentaUITests;
+			productReference = E3AF22B42A269DED002BF4AE /* EGarciaEcommerceVentaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3B5DC432A1FE53700A4373A /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVenta" */;
@@ -677,6 +715,10 @@
 					E3A135D329FAFD6D006C0CAD = {
 						CreatedOnToolsVersion = 14.3;
 					};
+					E3AF22B32A269DED002BF4AE = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E3B5DC2F2A1FE53600A4373A;
+					};
 					E3B5DC2F2A1FE53600A4373A = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -701,6 +743,7 @@
 				E3A135D329FAFD6D006C0CAD /* EGarciaEcommerce */,
 				E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */,
 				E313AB292A257784000C5E5D /* EGarciaEcommerceVentaTests */,
+				E3AF22B32A269DED002BF4AE /* EGarciaEcommerceVentaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -726,6 +769,13 @@
 				E3A135DF29FAFD6D006C0CAD /* Main.storyboard in Resources */,
 				E33B71E72A140F3900C1CB6D /* ProductoCell.xib in Resources */,
 				E3DA70192A1BFF3F00A6B53E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3AF22B22A269DED002BF4AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,16 +880,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3AF22AF2A2661DE002BF4AE /* AppDelegate.swift in Sources */,
-				E313AB422A257AAE000C5E5D /* DBManager.swift in Sources */,
-				E313AB412A257A95000C5E5D /* ProductoViewModel.swift in Sources */,
-				E313AB402A257A7B000C5E5D /* Venta.swift in Sources */,
-				E313AB3F2A257A5B000C5E5D /* Proveedor.swift in Sources */,
-				E313AB3E2A257A19000C5E5D /* Area.swift in Sources */,
-				E313AB3D2A257A12000C5E5D /* Departamento.swift in Sources */,
-				E313AB3C2A257A06000C5E5D /* Producto.swift in Sources */,
-				E313AB342A2578C1000C5E5D /* Result.swift in Sources */,
-				E313AB332A257865000C5E5D /* CarritoViewModel.swift in Sources */,
 				E313AB2D2A257784000C5E5D /* EGarciaEcommerceVentaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -883,6 +923,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3AF22B02A269DED002BF4AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3AF22B72A269DED002BF4AE /* EGarciaEcommerceVentaUITests.swift in Sources */,
+				E3AF22B92A269DED002BF4AE /* EGarciaEcommerceVentaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E3B5DC2C2A1FE53600A4373A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -922,6 +971,11 @@
 			isa = PBXTargetDependency;
 			target = E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */;
 			targetProxy = E313AB2E2A257784000C5E5D /* PBXContainerItemProxy */;
+		};
+		E3AF22BB2A269DED002BF4AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3B5DC2F2A1FE53600A4373A /* EGarciaEcommerceVenta */;
+			targetProxy = E3AF22BA2A269DED002BF4AE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1171,6 +1225,40 @@
 			};
 			name = Release;
 		};
+		E3AF22BD2A269DED002BF4AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EGarciaEcommerceVenta;
+			};
+			name = Debug;
+		};
+		E3AF22BE2A269DED002BF4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LAT49JHA2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digis.EGarciaEcommerceVentaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EGarciaEcommerceVenta;
+			};
+			name = Release;
+		};
 		E3B5DC412A1FE53700A4373A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B96C34FED1516F1430EF1DD3 /* Pods-EGarciaEcommerceVenta.debug.xcconfig */;
@@ -1257,6 +1345,15 @@
 			buildConfigurations = (
 				E3A135E929FAFD6E006C0CAD /* Debug */,
 				E3A135EA29FAFD6E006C0CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3AF22BC2A269DED002BF4AE /* Build configuration list for PBXNativeTarget "EGarciaEcommerceVentaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3AF22BD2A269DED002BF4AE /* Debug */,
+				E3AF22BE2A269DED002BF4AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

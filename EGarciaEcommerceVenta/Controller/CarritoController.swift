@@ -69,6 +69,16 @@ class CarritoController: UITableViewController {
           
         }
         if sender.value == 0 {
+            print(sender.tag)
+            print(sender.value)
+            let result = self.carritoViewModel.Delete(productos[sender.tag].producto!.IdProducto!)
+            
+            if result.Correct!{
+                updateUI()
+                print("se elimino del carrito")
+            } else {
+                print("ocurrio un error")
+            }
             
         }
        
