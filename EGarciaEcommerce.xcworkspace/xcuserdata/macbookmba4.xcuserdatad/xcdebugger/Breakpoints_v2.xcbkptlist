@@ -6364,8 +6364,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "GetAll()"
             landmarkType = "7">
             <Locations>
@@ -6412,8 +6412,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "GetAll()"
             landmarkType = "7">
             <Locations>
@@ -6490,8 +6490,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "GetAll()"
             landmarkType = "7">
          </BreakpointContent>
@@ -6506,8 +6506,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "138"
-            endingLineNumber = "138"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "GetAll()"
             landmarkType = "7">
             <Locations>
@@ -6579,7 +6579,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B06E2D56-82DB-4BD2-A4F0-A4E3E5A487DF"
+            uuid = "BEFB8F74-49DC-448B-8FE8-EE24102E34D4"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -6588,22 +6588,6 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
             endingLineNumber = "47"
-            landmarkName = "Update(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BEFB8F74-49DC-448B-8FE8-EE24102E34D4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
             landmarkName = "Delete(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6874,8 +6858,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "164"
-            endingLineNumber = "164"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
             landmarkName = "UpdateCantidad(_:_:)"
             landmarkType = "7">
             <Locations>
@@ -6937,8 +6921,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "173"
-            endingLineNumber = "173"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
             landmarkName = "UpdateCantidad(_:_:)"
             landmarkType = "7">
             <Locations>
@@ -6985,8 +6969,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "175"
-            endingLineNumber = "175"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
             landmarkName = "UpdateCantidad(_:_:)"
             landmarkType = "7">
             <Locations>
@@ -7033,8 +7017,8 @@
             filePath = "EGarciaEcommerceVenta/ViewModel/CarritoViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
             landmarkName = "UpdateCantidad(_:_:)"
             landmarkType = "7">
             <Locations>

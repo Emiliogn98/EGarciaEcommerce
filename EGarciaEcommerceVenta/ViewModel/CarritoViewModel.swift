@@ -37,29 +37,6 @@ class CarritoViewModel{
         
         return result
     }
-    func Update(_ IdProducto : Int)-> Result{
-        var result = Result()
-        
-        let context = appDelegate.persistentContainer.viewContext
-        
- 
-        let response = NSFetchRequest<NSFetchRequestResult> (entityName: "VentaProducto")
-        response.predicate = NSPredicate(format: "idProducto =%", "\(IdProducto)")
-        do{
-            let resultFetch = try context.fetch(response) as! [NSManagedObject]
-            let producto = resultFetch.first
-            producto!.setValue("3", forKey: "cantidad")
-            try context.save()
-            result.Correct = true
-        }
-        catch let error {
-            result.Correct = false
-            result.ErrorMessage = error.localizedDescription
-            result.Ex = error
-        }
-
-        return result
-    }
     func Delete(_ IdProducto : Int) -> Result{
         var result = Result()
         

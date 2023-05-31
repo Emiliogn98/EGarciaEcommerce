@@ -74,7 +74,6 @@
 		E3B5DC712A1FF6B800A4373A /* RegistroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC702A1FF6B800A4373A /* RegistroController.swift */; };
 		E3B5DC722A20063D00A4373A /* GoogleService-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E3DA70182A1BFF3F00A6B53E /* GoogleService-Info.plist */; };
 		E3B5DC752A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC732A20094B00A4373A /* EGarciaEcommerce.xcdatamodeld */; };
-		E3B5DC772A200A5600A4373A /* VentaProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */; };
 		E3C680E22A181F3900BCCF12 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C680E12A181F3900BCCF12 /* LoginController.swift */; };
 		E3CC03B12A1E9FD100CA9937 /* ProductoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */; };
 		E3CC03B22A1E9FD100CA9937 /* ProductoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */; };
@@ -173,7 +172,6 @@
 		E3B5DC6E2A1FF67A00A4373A /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E3B5DC702A1FF6B800A4373A /* RegistroController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroController.swift; sourceTree = "<group>"; };
 		E3B5DC742A20094B00A4373A /* EGarciaEcommerce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EGarciaEcommerce.xcdatamodel; sourceTree = "<group>"; };
-		E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VentaProductoViewModel.swift; sourceTree = "<group>"; };
 		E3C680E12A181F3900BCCF12 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		E3CC03AF2A1E9FD100CA9937 /* ProductoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoCollectionViewCell.swift; sourceTree = "<group>"; };
 		E3CC03B02A1E9FD100CA9937 /* ProductoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -473,7 +471,6 @@
 		E3B5DC4F2A1FE9A400A4373A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				E3B5DC762A200A5600A4373A /* VentaProductoViewModel.swift */,
 				E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */,
 			);
 			path = ViewModel;
@@ -666,6 +663,7 @@
 				E3B5DC2D2A1FE53600A4373A /* Frameworks */,
 				E3B5DC2E2A1FE53600A4373A /* Resources */,
 				5BE5850FCBD6AC8F087378AA /* [CP] Embed Pods Frameworks */,
+				E3E0DF312A27D4A00066CC9C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -856,6 +854,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EGarciaEcommerce/Pods-EGarciaEcommerce-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E3E0DF312A27D4A00066CC9C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${BUILD_DIR%/Build/*}/SourcePackages/checkouts/firebase-ios-sdk/Crashlytics/run\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -935,7 +952,6 @@
 				E3B5DC482A1FE90F00A4373A /* Area.swift in Sources */,
 				E3B5DC472A1FE8FB00A4373A /* Departamento.swift in Sources */,
 				E3B5DC462A1FE8DD00A4373A /* Result.swift in Sources */,
-				E3B5DC772A200A5600A4373A /* VentaProductoViewModel.swift in Sources */,
 				E3E6AB472A214688001813D8 /* CarritoCell.swift in Sources */,
 				E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */,
 				E3E6AB3A2A213CA9001813D8 /* CarritoViewModel.swift in Sources */,
@@ -1248,6 +1264,7 @@
 				CODE_SIGN_ENTITLEMENTS = EGarciaEcommerceVenta/EGarciaEcommerceVenta.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = 8LAT49JHA2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EGarciaEcommerceVenta/Info.plist;
