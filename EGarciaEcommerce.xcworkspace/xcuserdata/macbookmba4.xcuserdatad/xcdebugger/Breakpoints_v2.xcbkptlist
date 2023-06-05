@@ -6602,8 +6602,8 @@
             filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "UpdateCantidad(sender:)"
             landmarkType = "7">
             <Locations>
@@ -6650,8 +6650,8 @@
             filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "UpdateCantidad(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6666,8 +6666,8 @@
             filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "UpdateCantidad(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6682,8 +6682,8 @@
             filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "UpdateCantidad(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -6921,8 +6921,8 @@
             filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "UpdateCantidad(sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -7069,6 +7069,210 @@
             endingLineNumber = "26"
             landmarkName = "testExample()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "CarritoController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - 2ebc577992b85cf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.cantidadProductos.getter : Swift.Int"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - 670445579e59d0e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.cantidadProductos.setter : Swift.Int"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - 76a6740aa66af1f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.cantidadProductos.modify : Swift.Int"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - b6607d8c56cb0c4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.cantidadProductos.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - d0ba1e56621bc2d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; EGarciaEcommerceVenta.CarritoController"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "91C1BC8D-32C9-45D3-819E-487389B635C2 - e246f0bb1d29f872"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.CarritoController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;EGarciaEcommerceVenta.CarritoController&gt;"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/CarritoController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "428">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCD2AF03-95F3-4334-8852-D4A2DB4F6D64"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVenta/Controller/ResumenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E513B364-A784-43B4-B08D-B09E8A416CA6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVenta/Controller/ResumenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DBF19F1A-BF5D-43A6-A5BB-14368CC59D87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVenta/Controller/CarritoController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37537BBB-5BB9-485D-AA94-6F2FF11C093C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EGarciaEcommerceVenta/Controller/ResumenController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "37537BBB-5BB9-485D-AA94-6F2FF11C093C - 311b099aa0abf9cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.ResumenController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/ResumenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "468">
+               </Location>
+               <Location
+                  uuid = "37537BBB-5BB9-485D-AA94-6F2FF11C093C - 311b099aa0abf9cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EGarciaEcommerceVenta.ResumenController.viewDidLoad() -&gt; ()"
+                  moduleName = "EGarciaEcommerceVenta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/macbookmba4/Documents/EGarciaNavarreteIOSMarzo/EGarciaEcommerce/EGarciaEcommerceVenta/Controller/ResumenController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "696">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

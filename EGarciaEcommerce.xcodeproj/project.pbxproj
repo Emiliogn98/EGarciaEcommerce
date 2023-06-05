@@ -21,6 +21,8 @@
 		E32A65152A0DB5780002E365 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E32A65142A0DB5780002E365 /* iOSDropDown.framework */; };
 		E32B57BE29FC541700A1EA76 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BD29FC541700A1EA76 /* DBManager.swift */; };
 		E32B57C029FC54FA00A1EA76 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32B57BF29FC54FA00A1EA76 /* Usuario.swift */; };
+		E32DBEBC2A2E4B3D0090752E /* MetodoPago.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32DBEBB2A2E4B3D0090752E /* MetodoPago.swift */; };
+		E32DBEBE2A2E4CB00090752E /* MetodoPagoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E32DBEBD2A2E4CB00090752E /* MetodoPagoViewModel.swift */; };
 		E33B71DD2A140CB700C1CB6D /* GetAllProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71DC2A140CB700C1CB6D /* GetAllProductoController.swift */; };
 		E33B71DF2A140DD600C1CB6D /* FormProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71DE2A140DD600C1CB6D /* FormProductoController.swift */; };
 		E33B71E22A140EFB00C1CB6D /* ProductoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */; };
@@ -128,6 +130,8 @@
 		E32B57BD29FC541700A1EA76 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		E32B57BF29FC54FA00A1EA76 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		E32B57C129FC5DB200A1EA76 /* EGarciaBD.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = EGarciaBD.db; sourceTree = "<group>"; };
+		E32DBEBB2A2E4B3D0090752E /* MetodoPago.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPago.swift; sourceTree = "<group>"; };
+		E32DBEBD2A2E4CB00090752E /* MetodoPagoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetodoPagoViewModel.swift; sourceTree = "<group>"; };
 		E33B71DC2A140CB700C1CB6D /* GetAllProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllProductoController.swift; sourceTree = "<group>"; };
 		E33B71DE2A140DD600C1CB6D /* FormProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormProductoController.swift; sourceTree = "<group>"; };
 		E33B71E12A140EFB00C1CB6D /* ProductoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewModel.swift; sourceTree = "<group>"; };
@@ -466,6 +470,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E6AB3B2A2141D7001813D8 /* Venta.swift */,
+				E32DBEBB2A2E4B3D0090752E /* MetodoPago.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -474,6 +479,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E6AB392A213CA9001813D8 /* CarritoViewModel.swift */,
+				E32DBEBD2A2E4CB00090752E /* MetodoPagoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -938,6 +944,7 @@
 			files = (
 				E3B5DC722A20063D00A4373A /* GoogleService-Info.plist in Sources */,
 				E3B5DC662A1FF1B700A4373A /* Proveedor.swift in Sources */,
+				E32DBEBC2A2E4B3D0090752E /* MetodoPago.swift in Sources */,
 				E3B5DC4D2A1FE95900A4373A /* ProductoViewModel.swift in Sources */,
 				E3B5DC572A1FEC9500A4373A /* ProductoCollectionController.swift in Sources */,
 				E3B5DC592A1FECEB00A4373A /* DepartamentoController.swift in Sources */,
@@ -957,6 +964,7 @@
 				E3B5DC462A1FE8DD00A4373A /* Result.swift in Sources */,
 				E3E6AB472A214688001813D8 /* CarritoCell.swift in Sources */,
 				E3B5DC332A1FE53600A4373A /* AppDelegate.swift in Sources */,
+				E32DBEBE2A2E4CB00090752E /* MetodoPagoViewModel.swift in Sources */,
 				E3E6AB3A2A213CA9001813D8 /* CarritoViewModel.swift in Sources */,
 				E38B7AAC2A2A841700D72816 /* ResumenController.swift in Sources */,
 				E3B5DC712A1FF6B800A4373A /* RegistroController.swift in Sources */,

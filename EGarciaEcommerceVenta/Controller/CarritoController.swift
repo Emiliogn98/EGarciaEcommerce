@@ -68,7 +68,8 @@ class CarritoController: UIViewController {
             if segue.identifier == "CarritoResumenSegue" {
                 let formControl = segue.destination as! ResumenController
                 formControl.Total = self.Total
-                formControl.cantidadProductos = cantidadProductos
+                formControl.cantidadProductos = self.cantidadProductos
+                print(self.cantidadProductos)
                 
             }
    
